@@ -1,0 +1,4 @@
+__pycache__/
+*.pyc
+VLM_assembly_plan_gen/data/
+VLM_assembly_plan_gen/outputs/

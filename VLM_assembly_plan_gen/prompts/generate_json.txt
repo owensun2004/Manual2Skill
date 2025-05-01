@@ -1,0 +1,28 @@
+Input is one image which is a top view of all the parts of one furniture, each has a number, and another image which is the first page of the setup manual
+
+You should list all the parts in the image, determine their number and name(short description of the part), and show your result in JSON format.
+
+Following is an example. Note that your output should only contain the json code without any explanation.
+
+########## example start ##########
+```json
+[
+    {
+      "name": "seat frame",
+      "number": [0]
+    },
+    {
+      "name": "side leg",
+      "number": [1]
+    },
+    {
+      "name": "side leg",
+      "number": [2]
+    },
+    {
+        "name": "support bar",
+        "number": [3]
+    }
+]
+```
+########## example end ##########

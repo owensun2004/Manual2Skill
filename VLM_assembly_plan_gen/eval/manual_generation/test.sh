@@ -1,0 +1,2 @@
+export PYTHONPATH=$PYTHONPATH:$(pwd)
+python manual_generation/test_accuracy.py --data_json ../data/main_data.json --parts_dir ../data/parts --part_features_pkl resources/features_dgcnn_1024_102.pkl --tree_dir singlestep --difficulty all --debug True

@@ -1,0 +1,143 @@
+You are a robot assistant responsible for assembling IKEA furnitures.
+
+Your new task is to convert a step by step furniture assembly instruction plan from text format into a tree format.
+
+The tree represents the stage of the furniture assembly, with lower level nodes representing initial and beginning stages, and the upper level representing the concluding and finished stages of the furniture assembly.
+
+Each end node (leaf) of the tree represents the atomic furniture part, you can think of it as a furniture part that cannot be decomposed further. As you move up the tree, each parent node will represent two or more child nodes combined. Finally, the root node will be the completed furniture.
+
+You should clearly describe how every node is connected.
+
+Your output will be a tree that should be STRICTLY written in a nested list of integers with NO other comments or natural language texts.
+
+EXAMPLE INPUT 1:
+Here’s a step-by-step assembly plan for the furniture using the provided parts:
+
+### Step 1: Assemble Backrest and Seat
+- **Parts Needed:** Backrest Frame (1), Seat Cushion (5)
+- **Instructions:**
+  - Place the Backrest Frame (1) and Seat Cushion (5) adjacent as shown in their respective colors (red and green).
+  - Ensure the backrest is upright and securely attached to the seat.
+
+### Step 2: Attach Side Leg Frame
+- **Parts Needed:** Side Leg Frame (2) and subassembly from Step 1
+- **Instructions:**
+  - Position the Side Leg Frame (2) on one side of the assembled backrest and seat structure.
+
+### Step 3: Attach Side Leg Frame Again
+- **Parts Needed:** Side Leg Frame (7) and subassembly from Step 2
+- **Instructions:**
+  - Position the Side Leg Frame (7) on the other side of the assembled backrest and seat structure.
+
+### Step 4: Connect Support Beams
+- **Parts Needed:** Support Beams (3, 4) and subassembly from Step 3
+- **Instructions:**
+  - Attach Support Beams (3, 4) to the inside of the Side Leg Frame, as depicted.
+
+  
+Check the entire assembly for any loose parts and re-tighten as necessary. The chair should now be fully assembled and ready for use.
+
+EXAMPLE OUTPUT 1:
+```python
+[
+    [
+        [
+            [
+                1,
+                5
+            ],
+            2
+        ],
+        7
+    ],
+    3,
+    4
+]
+```
+
+EXAMPLE INPUT 2:
+Here is a detailed step-by-step plan for assembling the chair using the provided materials and the new pages of the manual:
+
+### Step 1: Connect Support Beams and Leg Frame
+**Parts Involved:** Support Beams (0 and 3), Leg Frame (4)
+- **Instructions:** Position the leg frame (4) horizontally on the floor. Align the support beams (0 and 1) vertically to connect with the leg frame. Ensure that each beam is fitted securely into the designated slots on the frame.
+
+### Step 2: Attach Backrest Slats
+**Parts Involved:** Backrest Slats (2) and subassembly from Step 1
+- **Instructions:** Insert the backrest slats (2) into the slots on the leg frame. Ensure that the slats are facing outward and securely fitted to provide back support.
+
+### Step 3: Connect Seat Cushion
+**Parts Involved:** Seat Cushion (1) and subassembly from Step 2
+- **Instructions:** Place the seat cushion (1) on top of the assembled frame. Align the cushion with the edges of the frame for balance and comfort.
+
+EXAMPLE OUTPUT 2:
+```python
+[
+    [
+        [
+            0,
+            3,
+            4
+        ],
+        2
+    ],
+    1
+]
+```
+
+EXAMPLE INPUT 3:
+Here is a detailed step-by-step plan for assembling the chair using the provided materials and the new pages of the manual:
+
+### Step 1: Connect Support Beams and Leg Frame
+**Parts Involved:** Support Beams (7, 11, 6), Leg Frame (5)
+- **Instructions:** Position the leg frame (5) horizontally on the floor. Align the support beams (7, 11, 6) vertically to connect with the leg frame. Ensure that each beam is fitted securely into the designated slots on the frame.
+
+### Step 2: Attach Backrest Slats
+**Parts Involved:** Backrest Slats (1, 10) and subassembly from Step 1
+- **Instructions:** Insert the backrest slats (1, 10) into the slots on the leg frame. Ensure that the slats are facing outward and securely fitted to provide back support.
+
+### Step 3: Connect Seat Cushion
+**Parts Involved:** Seat Cushion (3) and subassembly from Step 2
+- **Instructions:** Place the seat cushion (3) on top of the assembled frame. Align the cushion with the edges of the frame for balance and comfort.
+
+### Step 4: Connect Support Beams and Leg Frames
+**Parts Involved:** Support Beams (8, 4), Leg Frames (2, 9)
+- **Instructions:** Position the leg frame (2, 9) horizontally on the floor. Align the support beams (8, 4) vertically to connect with the leg frame.
+
+### Step 5: Connect Support Beams and Leg Frames
+**Parts Involved:** Subassembly from Step 4 and subassembly from Step 3
+- **Instructions:** Connect the two subassemblies together
+
+### Step 5: Connect Support Beams and Leg Frames
+**Parts Involved:** Leg frame (0) and subassembly from Step 5
+- **Instructions:** Connect the final leg frame with the previous subassembly
+
+EXAMPLE OUTPUT 3:
+```python
+[
+    [
+        [
+            8,
+            4,
+            2,
+            9
+        ],
+        [
+            [
+                [
+                    7,
+                    11,
+                    6,
+                    5
+                ], 
+                1,
+                10 
+            ],  
+            3
+        ]
+    ]
+    0
+]
+```
+
+YOUR REAL INPUT:

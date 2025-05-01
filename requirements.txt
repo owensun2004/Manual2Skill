@@ -1,0 +1,12 @@
+h5py==3.13.0
+ipdb==0.13.13
+mathutils==3.3.0
+matplotlib==3.10.1
+numpy==2.2.5
+openai==1.76.2
+Pillow==11.2.1
+progressbar33==2.4
+scikit_learn==1.6.1
+scipy==1.15.2
+setuptools==75.8.0
+tqdm==4.67.1
