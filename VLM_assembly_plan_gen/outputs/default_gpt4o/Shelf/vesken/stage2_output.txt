@@ -1,0 +1,34 @@
+
+07:23PM on January 14, 2025
+=================================================================
+There are six pages in the setup manual, each with a big black number on the left. Thus, there are six total steps.
+
+### Step 1:
+- **Parts Needed:** Side Panel (0), Side Panel (1), Side Panel (2), Side Panel (3), Shelf (4)
+- **Instructions:**
+  - **Assemble Base:** Attach the side panels (0, 1, 2, 3) vertically to the shelf (4) to form the base structure.
+
+### Step 2:
+- **Parts Needed:** Subassembly from Step 1, Shelf (5)
+- **Instructions:**
+  - **Add Second Shelf:** Place the second shelf (5) on top of the side panels from the subassembly in Step 1.
+
+### Step 3:
+- **Parts Needed:** Subassembly from Step 2, Side Panel (0), Side Panel (1), Side Panel (2), Side Panel (3)
+- **Instructions:**
+  - **Extend Structure:** Attach additional side panels (0, 1, 2, 3) vertically on top of the existing structure.
+
+### Step 4:
+- **Parts Needed:** Subassembly from Step 3, Shelf (6)
+- **Instructions:**
+  - **Add Third Shelf:** Place the third shelf (6) on top of the newly added side panels.
+
+### Step 5:
+- **Parts Needed:** Subassembly from Step 4, Side Panel (0), Side Panel (1), Side Panel (2), Side Panel (3)
+- **Instructions:**
+  - **Further Extend Structure:** Attach more side panels (0, 1, 2, 3) vertically on top of the current structure.
+
+### Step 6:
+- **Parts Needed:** Subassembly from Step 5, Shelf (7)
+- **Instructions:**
+  - **Complete with Top Shelf:** Place the final shelf (7) on top of the structure to complete the assembly.

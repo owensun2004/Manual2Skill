@@ -1,0 +1,10 @@
+
+07:27PM on January 14, 2025
+=================================================================
+There is one page of the setup manual, so there is one total step.
+
+### Step 1:
+- **Parts Needed:** Seat Frame (0), Backrest (1), Seat (2)
+- **Instructions:**
+  - **Attach Backrest to Seat Frame:** Connect the backrest (1) to the seat frame (0) as shown in the manual.
+  - **Place Seat on Frame:** Position the seat (2) on top of the seat frame (0) to complete the assembly.

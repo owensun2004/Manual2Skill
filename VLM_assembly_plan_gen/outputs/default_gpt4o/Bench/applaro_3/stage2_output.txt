@@ -1,0 +1,24 @@
+
+07:18PM on January 14, 2025
+=================================================================
+There are four pages in the setup manual, each with a big black number on the left. Thus, there are four total steps.
+
+### Step 1:
+- **Parts Needed:** Seat Frame (0), Side Legs (2, 3)
+- **Instructions:**
+  - **Attach Side Legs:** Connect the side legs (2, 3) to the seat frame (0) as shown in the manual.
+
+### Step 2:
+- **Parts Needed:** Subassembly from Step 1, Backrest Frame (1)
+- **Instructions:**
+  - **Install Backrest Frame:** Attach the backrest frame (1) to the subassembly from Step 1.
+
+### Step 3:
+- **Parts Needed:** Subassembly from Step 2, Support Bars (4, 5, 6, 7)
+- **Instructions:**
+  - **Add Support Bars:** Secure the support bars (4, 5, 6, 7) to the structure from Step 2 for additional stability.
+
+### Step 4:
+- **Parts Needed:** Subassembly from Step 3, Back Panel (12)
+- **Instructions:**
+  - **Attach Back Panel:** Place the back panel (12) on top of the assembled structure from Step 3 to complete the bench.

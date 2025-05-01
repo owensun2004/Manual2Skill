@@ -1,0 +1,29 @@
+
+07:33PM on January 14, 2025
+=================================================================
+There are five pages in the setup manual, each with a big black number on the left. Thus, there are five total steps.
+
+### Step 1:
+- **Parts Needed:** Side Frame (2), Side Frame (3)
+- **Instructions:**
+  - **Connect Side Frames:** Align and connect the side frame (2) with the side frame (3) to form the base structure.
+
+### Step 2:
+- **Parts Needed:** Subassembly from Step 1, Support Bar (4)
+- **Instructions:**
+  - **Attach Support Bar:** Secure the support bar (4) between the connected side frames from Step 1.
+
+### Step 3:
+- **Parts Needed:** Subassembly from Step 2, Leg (6), Leg (7)
+- **Instructions:**
+  - **Add Legs:** Attach leg (6) and leg (7) to the ends of the side frames to provide support.
+
+### Step 4:
+- **Parts Needed:** Subassembly from Step 3, Support Bar (5)
+- **Instructions:**
+  - **Install Second Support Bar:** Connect the second support bar (5) parallel to the first one, enhancing stability.
+
+### Step 5:
+- **Parts Needed:** Subassembly from Step 4, Center Support (10)
+- **Instructions:**
+  - **Add Center Support:** Position and secure the center support (10) to connect the table tops and ensure even weight distribution.

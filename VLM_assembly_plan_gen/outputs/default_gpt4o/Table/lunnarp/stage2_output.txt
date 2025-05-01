@@ -1,0 +1,34 @@
+
+07:31PM on January 14, 2025
+=================================================================
+There are six pages in the setup manual, each with a big black number on the left. Thus, there are six total steps.
+
+### Step 1:
+- **Parts Needed:** Angled Leg (0), Angled Leg (2), Support Bar (4), Support Bar (8)
+- **Instructions:**
+  - **Assemble Frame:** Connect angled legs (0) and (2) with support bars (4) and (8) to form two rectangular frames.
+
+### Step 2:
+- **Parts Needed:** Subassembly from Step 1, Angled Leg (6), Angled Leg (10)
+- **Instructions:**
+  - **Attach Legs:** Connect angled legs (6) and (10) vertically to the subassembly from Step 1.
+
+### Step 3:
+- **Parts Needed:** Tabletop (1), Support Bar (11)
+- **Instructions:**
+  - **Prepare Tabletop:** Attach support bar (11) to the underside of the tabletop (1).
+
+### Step 4:
+- **Parts Needed:** Subassembly from Step 2, Shelf (3)
+- **Instructions:**
+  - **Install Shelf:** Secure the shelf (3) horizontally between the vertical legs of the subassembly from Step 2.
+
+### Step 5:
+- **Parts Needed:** Subassembly from Step 4, Angled Support (5), Angled Support (7)
+- **Instructions:**
+  - **Add Supports:** Attach angled supports (5) and (7) diagonally between the legs and the shelf for stability.
+
+### Step 6:
+- **Parts Needed:** Subassembly from Step 5, Small Support (9)
+- **Instructions:**
+  - **Final Stabilization:** Attach the small support (9) horizontally between the angled supports to complete the assembly.

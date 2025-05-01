@@ -1,0 +1,24 @@
+
+07:26PM on January 14, 2025
+=================================================================
+There are four pages in the setup manual, each with a big black number on the left. Thus, there are four total steps.
+
+### Step 1:
+- **Parts Needed:** Support Frame (3), Leg (1)
+- **Instructions:**
+  - **Attach Leg to Frame:** Connect leg (1) to the support frame (3) as shown in the manual.
+
+### Step 2:
+- **Parts Needed:** Subassembly from Step 1, Leg (2)
+- **Instructions:**
+  - **Add Second Leg:** Attach leg (2) to the opposite side of the support frame (3) from Step 1.
+
+### Step 3:
+- **Parts Needed:** Subassembly from Step 2, Support Frame (5)
+- **Instructions:**
+  - **Connect Second Frame:** Attach the second support frame (5) to the structure from Step 2, ensuring it aligns with the existing frame.
+
+### Step 4:
+- **Parts Needed:** Subassembly from Step 3, Seat (0)
+- **Instructions:**
+  - **Attach Seat:** Secure the seat (0) to the top of the assembled frame and leg structure from Step 3.

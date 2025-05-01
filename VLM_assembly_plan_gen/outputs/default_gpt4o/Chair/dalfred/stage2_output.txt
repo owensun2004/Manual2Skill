@@ -1,0 +1,39 @@
+
+07:29PM on January 14, 2025
+=================================================================
+There are seven pages in the setup manual, so there are seven total steps.
+
+### Step 1:
+- **Parts Needed:** Seat (0), Seat (1), Leg (2)
+- **Instructions:**
+  - **Attach Seat to Leg:** Connect the seat (0) and seat (1) to the leg (2) as shown in the manual.
+
+### Step 2:
+- **Parts Needed:** Subassembly from Step 1, Leg (3)
+- **Instructions:**
+  - **Add Second Leg:** Attach the second leg (3) to the existing subassembly from Step 1.
+
+### Step 3:
+- **Parts Needed:** Subassembly from Step 2, Leg (4), Leg (5), Ring (8)
+- **Instructions:**
+  - **Complete Leg Assembly:** Attach the remaining legs (4) and (5) and the ring (8) to the subassembly from Step 2.
+
+### Step 4:
+- **Parts Needed:** Support Bar (6), Support Bar (7)
+- **Instructions:**
+  - **Install Support Bars:** Connect support bars (6) and (7) to the leg assembly for added stability.
+
+### Step 5:
+- **Parts Needed:** Subassembly from Step 4
+- **Instructions:**
+  - **Secure Structure:** Ensure all parts are tightly connected and the structure is stable.
+
+### Step 6:
+- **Parts Needed:** Base (9), Base (10)
+- **Instructions:**
+  - **Assemble Base:** Attach base (9) and base (10) to the bottom of the structure.
+
+### Step 7:
+- **Parts Needed:** Subassembly from Step 6
+- **Instructions:**
+  - **Final Assembly:** Ensure all components are securely fastened and the stool is ready for use.

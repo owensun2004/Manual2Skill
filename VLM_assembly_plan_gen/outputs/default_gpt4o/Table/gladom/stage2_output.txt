@@ -1,0 +1,19 @@
+
+07:27PM on January 14, 2025
+=================================================================
+There are three pages in the setup manual, each with a big black number on the left. Thus, there are three total steps.
+
+### Step 1:
+- **Parts Needed:** Table Frame (0), Cross Support (3)
+- **Instructions:**
+  - **Assemble Frame and Cross Support:** Connect the cross support (3) to the table frame (0) to form the base structure.
+
+### Step 2:
+- **Parts Needed:** Subassembly from Step 1, Circular Support (2)
+- **Instructions:**
+  - **Attach Circular Support:** Place the circular support (2) on top of the assembled frame from Step 1, ensuring it is securely connected.
+
+### Step 3:
+- **Parts Needed:** Subassembly from Step 2, Table Top (1)
+- **Instructions:**
+  - **Secure Table Top:** Position the table top (1) onto the circular support (2) and ensure it is properly aligned and attached.

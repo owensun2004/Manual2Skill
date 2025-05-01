@@ -1,0 +1,47 @@
+
+[
+    {
+        "name": "shelf",
+        "number": [0]
+    },
+    {
+        "name": "shelf",
+        "number": [1]
+    },
+    {
+        "name": "shelf",
+        "number": [2]
+    },
+    {
+        "name": "leg",
+        "number": [3]
+    },
+    {
+        "name": "leg",
+        "number": [4]
+    },
+    {
+        "name": "leg",
+        "number": [5]
+    },
+    {
+        "name": "leg",
+        "number": [6]
+    },
+    {
+        "name": "wheel",
+        "number": [7]
+    },
+    {
+        "name": "wheel",
+        "number": [8]
+    },
+    {
+        "name": "wheel",
+        "number": [9]
+    },
+    {
+        "name": "wheel",
+        "number": [10]
+    }
+]

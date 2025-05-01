@@ -1,0 +1,19 @@
+
+07:25PM on January 14, 2025
+=================================================================
+There are three pages in the setup manual, each with a big black number on the left. Thus, there are three total steps.
+
+### Step 1:
+- **Parts Needed:** Seat Frame (0), Backrest (2)
+- **Instructions:**
+  - **Attach Backrest to Seat Frame:** Position the backrest (2) vertically and align it with the seat frame (0). Secure the backrest to the seat frame as shown in the manual.
+
+### Step 2:
+- **Parts Needed:** Subassembly from Step 1, Seat Frame (1)
+- **Instructions:**
+  - **Connect Second Seat Frame:** Align the second seat frame (1) with the subassembly from Step 1. Ensure it fits securely next to the first seat frame and backrest.
+
+### Step 3:
+- **Parts Needed:** Subassembly from Step 2, Support Bar (3)
+- **Instructions:**
+  - **Install Support Bar:** Attach the support bar (3) horizontally between the two seat frames (0 and 1) to stabilize the structure. Ensure it is firmly connected as depicted in the manual.

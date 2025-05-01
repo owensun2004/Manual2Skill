@@ -1,0 +1,49 @@
+
+07:21PM on January 14, 2025
+=================================================================
+There are nine pages in the setup manual, each with a big black number on the left. Thus, there are nine total steps.
+
+### Step 1:
+- **Parts Needed:** Side Leg (1), Support Bar (5)
+- **Instructions:**
+  - **Attach Support Bar:** Connect the support bar (5) to the side leg (1) as shown in the manual.
+
+### Step 2:
+- **Parts Needed:** Subassembly from Step 1, Side Leg (2), Support Bar (6)
+- **Instructions:**
+  - **Complete Leg Frame:** Attach the second side leg (2) and support bar (6) to the existing subassembly.
+
+### Step 3:
+- **Parts Needed:** Subassembly from Step 2, Back Leg (7)
+- **Instructions:**
+  - **Add Back Leg:** Connect the back leg (7) to the assembled frame.
+
+### Step 4:
+- **Parts Needed:** Subassembly from Step 3, Backrest Frame (4)
+- **Instructions:**
+  - **Attach Backrest Frame:** Secure the backrest frame (4) to the existing structure.
+
+### Step 5:
+- **Parts Needed:** Subassembly from Step 4, Seat Frame (0)
+- **Instructions:**
+  - **Connect Seat Frame:** Attach the seat frame (0) to the assembled structure.
+
+### Step 6:
+- **Parts Needed:** Subassembly from Step 5, Support Bar (3)
+- **Instructions:**
+  - **Add Support Bar:** Connect the support bar (3) to the frame for additional stability.
+
+### Step 7:
+- **Parts Needed:** Subassembly from Step 6, Backrest (9)
+- **Instructions:**
+  - **Install Backrest:** Attach the backrest (9) to the backrest frame.
+
+### Step 8:
+- **Parts Needed:** Subassembly from Step 7, Support Bar (6)
+- **Instructions:**
+  - **Reinforce Structure:** Secure the support bar (6) to the frame for enhanced stability.
+
+### Step 9:
+- **Parts Needed:** Subassembly from Step 8, Seat (8)
+- **Instructions:**
+  - **Attach Seat:** Place and secure the seat (8) onto the seat frame, ensuring it clicks into place.

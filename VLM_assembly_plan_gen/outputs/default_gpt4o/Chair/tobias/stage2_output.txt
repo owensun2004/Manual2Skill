@@ -1,0 +1,9 @@
+
+07:24PM on January 14, 2025
+=================================================================
+There is one page of the setup manual, so there is one step.
+
+### Step 1:
+- **Parts Needed:** Seat Frame (0), Leg Frame (1)
+- **Instructions:**
+  - **Attach Seat to Legs:** Position the seat frame (0) on top of the leg frame (1) as shown in the manual. Ensure the holes on the seat frame align with the corresponding points on the leg frame.

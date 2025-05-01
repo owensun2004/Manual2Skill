@@ -1,0 +1,44 @@
+
+07:28PM on January 14, 2025
+=================================================================
+There are eight pages in the setup manual, each with a big black number on the left. Thus, there are eight total steps.
+
+### Step 1:
+- **Parts Needed:** Table Top (0), Drawer Front (1)
+- **Instructions:**
+  - **Attach Drawer Front:** Connect the drawer front (1) to the table top (0) as shown in the manual.
+
+### Step 2:
+- **Parts Needed:** Side Panel (2), Side Panel (3)
+- **Instructions:**
+  - **Connect Side Panels:** Attach side panels (2) and (3) to the assembly from Step 1.
+
+### Step 3:
+- **Parts Needed:** Subassembly from Step 2, Back Panel (6)
+- **Instructions:**
+  - **Install Back Panel:** Secure the back panel (6) to the structure from Step 2.
+
+### Step 4:
+- **Parts Needed:** Subassembly from Step 3
+- **Instructions:**
+  - **Reinforce Structure:** Ensure all parts are securely fastened as shown in the manual.
+
+### Step 5:
+- **Parts Needed:** Leg (4), Leg (5)
+- **Instructions:**
+  - **Attach Legs:** Connect legs (4) and (5) to the frame from Step 4.
+
+### Step 6:
+- **Parts Needed:** Support Bar (7)
+- **Instructions:**
+  - **Install Support Bar:** Attach the support bar (7) between the legs for added stability.
+
+### Step 7:
+- **Parts Needed:** Subassembly from Step 6
+- **Instructions:**
+  - **Secure Assembly:** Ensure all components are tightly secured as shown in the manual.
+
+### Step 8:
+- **Parts Needed:** Drawer Side (8), Drawer Side (9), Drawer Bottom (10)
+- **Instructions:**
+  - **Assemble Drawer:** Connect drawer sides (8) and (9) with the drawer bottom (10) and insert into the desk structure.

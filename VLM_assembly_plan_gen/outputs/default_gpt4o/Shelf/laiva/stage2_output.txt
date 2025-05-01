@@ -1,0 +1,29 @@
+
+07:21PM on January 14, 2025
+=================================================================
+There are five pages in the setup manual, so there are five total steps.
+
+### Step 1:
+- **Parts Needed:** Side Panel (0), Side Panel (1)
+- **Instructions:**
+  - **Align Side Panels:** Connect the side panels (0) and (1) as shown in the manual. These will form the vertical supports on either side of the shelf.
+
+### Step 2:
+- **Parts Needed:** Subassembly from Step 1, Shelf (2), Shelf (3)
+- **Instructions:**
+  - **Attach Shelves:** Insert shelves (2) and (3) horizontally between the side panels from Step 1.
+
+### Step 3:
+- **Parts Needed:** Subassembly from Step 2, Shelf (4), Shelf (5), Shelf (6)
+- **Instructions:**
+  - **Add More Shelves:** Place shelves (4), (5), and (6) horizontally to create additional levels within the structure.
+
+### Step 4:
+- **Parts Needed:** Subassembly from Step 3, Back Panel (7), Back Panel (8), Back Panel (9), Back Panel (10)
+- **Instructions:**
+  - **Install Back Panels:** Attach back panels (7), (8), (9), and (10) to the rear of the structure for stability.
+
+### Step 5:
+- **Parts Needed:** Subassembly from Step 4, Back Panel (11), Back Panel (12), Back Panel (13), Back Panel (14), Back Panel (15), Back Panel (16), Back Panel (17), Back Panel (18)
+- **Instructions:**
+  - **Complete Back Panels:** Secure the remaining back panels (11) through (18) to ensure the entire structure is stable and reinforced.

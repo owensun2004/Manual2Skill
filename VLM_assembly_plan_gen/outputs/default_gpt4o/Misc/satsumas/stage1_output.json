@@ -1,0 +1,31 @@
+
+[
+    {
+        "name": "top shelf",
+        "number": [0]
+    },
+    {
+        "name": "side leg",
+        "number": [1]
+    },
+    {
+        "name": "bottom shelf",
+        "number": [2]
+    },
+    {
+        "name": "middle shelf",
+        "number": [3]
+    },
+    {
+        "name": "support bar",
+        "number": [4]
+    },
+    {
+        "name": "middle shelf",
+        "number": [5]
+    },
+    {
+        "name": "side leg",
+        "number": [6]
+    }
+]

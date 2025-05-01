@@ -1,0 +1,14 @@
+
+07:18PM on January 14, 2025
+=================================================================
+There are two pages of the setup manual, each with a big black number on the left. Thus, there are two total steps.
+
+### Step 1:
+- **Parts Needed:** Backrest (2), Leg Frame (0)
+- **Instructions:**
+  - **Attach Leg Frame to Backrest:** Connect the leg frame (0) to the backrest (2) as shown in the manual. Ensure the frame is aligned properly with the backrest.
+
+### Step 2:
+- **Parts Needed:** Subassembly from Step 1, Leg Frame (1)
+- **Instructions:**
+  - **Attach Second Leg Frame:** Connect the second leg frame (1) to the subassembly from Step 1. Make sure both leg frames are securely attached to the backrest.

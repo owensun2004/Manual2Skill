@@ -1,0 +1,24 @@
+
+07:30PM on January 14, 2025
+=================================================================
+There are four pages in the setup manual, each with a big black number on the left. Thus, there are four total steps.
+
+### Step 1:
+- **Parts Needed:** Table Leg (0), Table Leg (1), Side Support (2)
+- **Instructions:**
+  - **Connect Side Support to Legs:** Attach side support (2) between table legs (0) and (1) as shown in the manual.
+
+### Step 2:
+- **Parts Needed:** Subassembly from Step 1, Side Support (3)
+- **Instructions:**
+  - **Add Second Side Support:** Attach the second side support (3) parallel to the first one, connecting the table legs (0) and (1).
+
+### Step 3:
+- **Parts Needed:** Subassembly from Step 2, Crossbar (4), Crossbar (5)
+- **Instructions:**
+  - **Install Crossbars:** Attach crossbars (4) and (5) between the side supports (2) and (3) to enhance stability.
+
+### Step 4:
+- **Parts Needed:** Subassembly from Step 3, Tabletop (6)
+- **Instructions:**
+  - **Secure Tabletop:** Place the tabletop (6) on top of the assembled frame and secure it as indicated in the manual.

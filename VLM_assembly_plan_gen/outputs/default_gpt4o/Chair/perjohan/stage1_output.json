@@ -1,0 +1,31 @@
+
+[
+    {
+        "name": "top panel",
+        "number": [0]
+    },
+    {
+        "name": "side panel",
+        "number": [1]
+    },
+    {
+        "name": "side panel",
+        "number": [2]
+    },
+    {
+        "name": "support bar",
+        "number": [3]
+    },
+    {
+        "name": "support bar",
+        "number": [4]
+    },
+    {
+        "name": "leg panel",
+        "number": [5]
+    },
+    {
+        "name": "leg panel",
+        "number": [6]
+    }
+]

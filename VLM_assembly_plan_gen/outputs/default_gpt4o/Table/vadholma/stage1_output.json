@@ -1,0 +1,31 @@
+
+[
+    {
+        "name": "side slat",
+        "number": [0]
+    },
+    {
+        "name": "tabletop",
+        "number": [1]
+    },
+    {
+        "name": "side panel",
+        "number": [2]
+    },
+    {
+        "name": "frame",
+        "number": [3]
+    },
+    {
+        "name": "frame",
+        "number": [4]
+    },
+    {
+        "name": "bottom shelf",
+        "number": [5]
+    },
+    {
+        "name": "side slat",
+        "number": [6]
+    }
+]

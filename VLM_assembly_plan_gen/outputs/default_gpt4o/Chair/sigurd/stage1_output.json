@@ -1,0 +1,35 @@
+
+[
+    {
+        "name": "cross support",
+        "number": [0]
+    },
+    {
+        "name": "short dowel",
+        "number": [1]
+    },
+    {
+        "name": "long dowel",
+        "number": [2]
+    },
+    {
+        "name": "seat support",
+        "number": [3]
+    },
+    {
+        "name": "back leg",
+        "number": [4]
+    },
+    {
+        "name": "front leg",
+        "number": [5]
+    },
+    {
+        "name": "seat",
+        "number": [6]
+    },
+    {
+        "name": "backrest",
+        "number": [7]
+    }
+]

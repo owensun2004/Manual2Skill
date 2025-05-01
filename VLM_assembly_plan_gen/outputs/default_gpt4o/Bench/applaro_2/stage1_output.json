@@ -1,0 +1,27 @@
+
+[
+    {
+        "name": "side panel",
+        "number": [0]
+    },
+    {
+        "name": "seat panel",
+        "number": [1]
+    },
+    {
+        "name": "side panel",
+        "number": [2]
+    },
+    {
+        "name": "backrest panel",
+        "number": [3]
+    },
+    {
+        "name": "armrest",
+        "number": [4]
+    },
+    {
+        "name": "armrest",
+        "number": [5]
+    }
+]

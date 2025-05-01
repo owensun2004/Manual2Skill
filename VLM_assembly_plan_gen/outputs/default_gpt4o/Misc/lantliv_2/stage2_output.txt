@@ -1,0 +1,24 @@
+
+07:34PM on January 14, 2025
+=================================================================
+There are four pages in the setup manual, each with a big black number on the left. Thus, there are four total steps.
+
+### Step 1:
+- **Parts Needed:** Top Frame (0), Side Frame (3), Support Bars (4, 5)
+- **Instructions:**
+  - **Assemble Side Frames and Support Bars:** Connect the side frame (3) to the top frame (0) using the support bars (4, 5) as shown in the manual.
+
+### Step 2:
+- **Parts Needed:** Subassembly from Step 1
+- **Instructions:**
+  - **Position Subassembly:** Place the assembled structure from Step 1 upright, ensuring stability as depicted in the manual.
+
+### Step 3:
+- **Parts Needed:** Top Shelf (1)
+- **Instructions:**
+  - **Attach Top Shelf:** Secure the top shelf (1) onto the top frame (0) of the upright structure from Step 2.
+
+### Step 4:
+- **Parts Needed:** Bottom Shelf (2)
+- **Instructions:**
+  - **Install Bottom Shelf:** Attach the bottom shelf (2) between the side frames (3) to complete the structure, as shown in the manual.

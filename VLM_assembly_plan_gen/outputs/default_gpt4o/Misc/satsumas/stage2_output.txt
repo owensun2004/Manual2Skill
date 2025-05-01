@@ -1,0 +1,14 @@
+
+07:36PM on January 14, 2025
+=================================================================
+There are two pages in the setup manual, each with a big black number on the left. Thus, there are two total steps.
+
+### Step 1:
+- **Parts Needed:** Side Leg (1), Middle Shelf (3), Middle Shelf (5), Support Bar (4)
+- **Instructions:**
+  - **Attach Shelves and Support Bar:** Connect the middle shelves (3) and (5) to the side leg (1). Ensure the support bar (4) is aligned and attached between the shelves for stability.
+
+### Step 2:
+- **Parts Needed:** Subassembly from Step 1, Top Shelf (0), Bottom Shelf (2), Side Leg (6)
+- **Instructions:**
+  - **Complete the Structure:** Attach the top shelf (0) and bottom shelf (2) to the subassembly from Step 1. Secure the second side leg (6) to the opposite side, completing the ladder structure.

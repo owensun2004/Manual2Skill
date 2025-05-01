@@ -1,0 +1,19 @@
+
+07:38PM on January 14, 2025
+=================================================================
+There are three pages in the setup manual, each with a big black number on the left. Thus, there are three total steps.
+
+### Step 1:
+- **Parts Needed:** Large Round Shelf (3), Vertical Support (4), Support Bar (0)
+- **Instructions:**
+  - **Assemble Base Structure:** Attach the vertical supports (4) to the large round shelf (3). Connect the support bar (0) between the vertical supports to provide stability.
+
+### Step 2:
+- **Parts Needed:** Subassembly from Step 1, Small Round Shelf (1), Small Round Shelf (2)
+- **Instructions:**
+  - **Attach Lower Shelves:** Secure the small round shelves (1) and (2) to the vertical supports, forming the lower section of the table.
+
+### Step 3:
+- **Parts Needed:** Subassembly from Step 2, Large Round Shelf (3)
+- **Instructions:**
+  - **Complete Table:** Place the large round shelf (3) on top of the structure, aligning it with the vertical supports to complete the table assembly.

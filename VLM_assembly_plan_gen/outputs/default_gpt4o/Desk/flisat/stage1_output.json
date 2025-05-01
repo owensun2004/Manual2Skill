@@ -1,0 +1,63 @@
+
+[
+    {
+        "name": "long leg",
+        "number": [0]
+    },
+    {
+        "name": "long leg",
+        "number": [1]
+    },
+    {
+        "name": "long leg",
+        "number": [2]
+    },
+    {
+        "name": "short leg",
+        "number": [3]
+    },
+    {
+        "name": "side frame",
+        "number": [4]
+    },
+    {
+        "name": "support bar",
+        "number": [5]
+    },
+    {
+        "name": "support bar",
+        "number": [6]
+    },
+    {
+        "name": "support bar",
+        "number": [7]
+    },
+    {
+        "name": "cross bar",
+        "number": [8]
+    },
+    {
+        "name": "cross bar",
+        "number": [9]
+    },
+    {
+        "name": "cross bar",
+        "number": [10]
+    },
+    {
+        "name": "side frame",
+        "number": [11]
+    },
+    {
+        "name": "short leg",
+        "number": [12]
+    },
+    {
+        "name": "table top",
+        "number": [13]
+    },
+    {
+        "name": "long leg",
+        "number": [14]
+    }
+]

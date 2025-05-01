@@ -1,0 +1,44 @@
+
+07:35PM on January 14, 2025
+=================================================================
+There are eight pages in the setup manual, so there are eight total steps.
+
+### Step 1:
+- **Parts Needed:** Three-way connector (6), Short connector (4), Short connector (10), Short connector (11)
+- **Instructions:**
+  - **Assemble Base Frame:** Connect the three-way connector (6) with three short connectors (4, 10, 11) to form the base frame.
+
+### Step 2:
+- **Parts Needed:** Subassembly from Step 1, Medium leg (5), Short leg (7)
+- **Instructions:**
+  - **Attach Legs:** Connect the medium leg (5) and short leg (7) to the subassembly from Step 1.
+
+### Step 3:
+- **Parts Needed:** Subassembly from Step 2, Small round top (3)
+- **Instructions:**
+  - **Add Small Top:** Place the small round top (3) onto the short leg (7) of the subassembly.
+
+### Step 4:
+- **Parts Needed:** Subassembly from Step 3, Medium connector (8)
+- **Instructions:**
+  - **Insert Medium Connector:** Attach the medium connector (8) vertically into the medium leg (5).
+
+### Step 5:
+- **Parts Needed:** Subassembly from Step 4, Long leg (0)
+- **Instructions:**
+  - **Add Long Leg:** Connect the long leg (0) to the medium connector (8) on the subassembly.
+
+### Step 6:
+- **Parts Needed:** Subassembly from Step 5, Medium round top (2)
+- **Instructions:**
+  - **Place Medium Top:** Position the medium round top (2) onto the long leg (0) of the subassembly.
+
+### Step 7:
+- **Parts Needed:** Subassembly from Step 6, Medium connector (9)
+- **Instructions:**
+  - **Insert Second Medium Connector:** Attach the medium connector (9) vertically into the long leg (0).
+
+### Step 8:
+- **Parts Needed:** Subassembly from Step 7, Large round top (1)
+- **Instructions:**
+  - **Add Large Top:** Place the large round top (1) onto the medium connector (9) to complete the assembly.

@@ -1,0 +1,19 @@
+
+07:29PM on January 14, 2025
+=================================================================
+There are three pages in the setup manual, each with a big black number on the left. Thus, there are three total steps.
+
+### Step 1:
+- **Parts Needed:** Side Leg (1), Side Leg (2), Front Leg Frame (4)
+- **Instructions:**
+  - **Assemble Side Legs and Front Frame:** Connect the side leg (1) and side leg (2) to the front leg frame (4) as shown in the manual page.
+
+### Step 2:
+- **Parts Needed:** Subassembly from Step 1, Backrest Frame (0)
+- **Instructions:**
+  - **Attach Backrest Frame:** Secure the backrest frame (0) to the subassembly from Step 1, ensuring it is aligned properly.
+
+### Step 3:
+- **Parts Needed:** Subassembly from Step 2, Seat (3)
+- **Instructions:**
+  - **Install Seat:** Attach the seat (3) to the assembled frame from Step 2, making sure it is firmly connected.

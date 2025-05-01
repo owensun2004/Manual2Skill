@@ -1,0 +1,15 @@
+
+07:16PM on January 14, 2025
+=================================================================
+There are two pages in the setup manual, each with a big black number on the left. Thus, there are two total steps.
+
+### Step 1:
+- **Parts Needed:** Seat (2), Frame (5)
+- **Instructions:**
+  - **Attach Frame to Seat:** Connect the frame (5) to the underside of the seat (2) as shown in the manual. Ensure the frame aligns properly with the seat's edges.
+
+### Step 2:
+- **Parts Needed:** Subassembly from Step 1, Backrest Bars (0, 1), Legs (3, 4)
+- **Instructions:**
+  - **Install Backrest Bars:** Attach the backrest bars (0, 1) to the frame and seat assembly from Step 1.
+  - **Attach Legs:** Secure the legs (3, 4) to the frame, ensuring they are firmly connected to provide stability to the chair.

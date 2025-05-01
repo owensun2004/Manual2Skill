@@ -1,0 +1,27 @@
+
+[
+    {
+        "name": "backrest bar",
+        "number": [0]
+    },
+    {
+        "name": "backrest bar",
+        "number": [1]
+    },
+    {
+        "name": "seat",
+        "number": [2]
+    },
+    {
+        "name": "leg",
+        "number": [3]
+    },
+    {
+        "name": "leg",
+        "number": [4]
+    },
+    {
+        "name": "frame",
+        "number": [5]
+    }
+]

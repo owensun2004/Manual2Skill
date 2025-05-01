@@ -1,0 +1,19 @@
+
+07:37PM on January 14, 2025
+=================================================================
+There are three pages in the setup manual, each with a big black number on the left. Thus, there are three total steps.
+
+### Step 1:
+- **Parts Needed:** Side Frame (1), Side Frame (4)
+- **Instructions:**
+  - **Connect Side Frames:** Attach side frame (1) to side frame (4) as shown in the manual. Ensure the frames are aligned properly to form the base structure.
+
+### Step 2:
+- **Parts Needed:** Subassembly from Step 1, Support Bar (2), Support Bar (3)
+- **Instructions:**
+  - **Attach Support Bars:** Secure support bar (2) and support bar (3) between the side frames from Step 1. This will provide stability to the structure.
+
+### Step 3:
+- **Parts Needed:** Subassembly from Step 2, Seat (0)
+- **Instructions:**
+  - **Install Seat:** Place the seat (0) on top of the assembled frame from Step 2. Ensure it is centered and securely attached to complete the stool.

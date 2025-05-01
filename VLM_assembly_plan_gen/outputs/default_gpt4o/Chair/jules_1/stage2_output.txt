@@ -1,0 +1,14 @@
+
+07:17PM on January 14, 2025
+=================================================================
+There are two pages of the setup manual, each with a big black number on the left. Thus, there are two total steps.
+
+### Step 1:
+- **Parts Needed:** Base (6)
+- **Instructions:**
+  - **Attach Wheels:** Insert the wheels into the designated slots on the base (6) as shown in the manual.
+
+### Step 2:
+- **Parts Needed:** Subassembly from Step 1, Seat (7)
+- **Instructions:**
+  - **Connect Seat to Base:** Align the seat (7) with the top of the base assembly from Step 1 and secure it in place as depicted in the manual.

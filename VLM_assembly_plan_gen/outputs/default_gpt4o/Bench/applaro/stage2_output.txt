@@ -1,0 +1,15 @@
+
+07:16PM on January 14, 2025
+=================================================================
+There are two pages in the setup manual, each with a big black number on the left. Thus, there are two total steps.
+
+### Step 1:
+- **Parts Needed:** Seat Panel (1), Side Frame (2), Support Bar (0)
+- **Instructions:**
+  - **Attach Side Frame:** Connect the side frame (2) to one end of the seat panel (1).
+  - **Install Support Bar:** Secure the support bar (0) horizontally between the side frame (2) and the seat panel (1) for stability.
+
+### Step 2:
+- **Parts Needed:** Subassembly from Step 1, Side Frame (3)
+- **Instructions:**
+  - **Attach Second Side Frame:** Connect the second side frame (3) to the opposite end of the seat panel (1), completing the bench structure.

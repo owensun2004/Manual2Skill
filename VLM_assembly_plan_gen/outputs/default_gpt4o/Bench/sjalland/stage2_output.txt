@@ -1,0 +1,15 @@
+
+07:21PM on January 14, 2025
+=================================================================
+There are two pages of the setup manual, each with a big black number on the left. Thus, there are two total steps.
+
+### Step 1:
+- **Parts Needed:** Seat Frame (0), Side Leg (1)
+- **Instructions:**
+  - **Attach First Side Leg:** Connect the side leg (1) to one end of the seat frame (0) as shown in the manual. Ensure the leg is aligned properly with the frame.
+
+### Step 2:
+- **Parts Needed:** Subassembly from Step 1, Side Leg (2), Support Bar (3)
+- **Instructions:**
+  - **Attach Second Side Leg:** Connect the second side leg (2) to the opposite end of the seat frame (0).
+  - **Install Support Bar:** Secure the support bar (3) between the two side legs (1 and 2) to provide additional stability.

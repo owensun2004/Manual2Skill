@@ -1,0 +1,24 @@
+
+07:34PM on January 14, 2025
+=================================================================
+There are four pages in the setup manual, indicating four steps in the assembly process.
+
+### Step 1:
+- **Parts Needed:** Side Frame (0), Step (2), Step (3)
+- **Instructions:**
+  - **Attach Steps to Frame:** Connect steps (2) and (3) to the side frame (0) as shown in the manual.
+
+### Step 2:
+- **Parts Needed:** Subassembly from Step 1, Side Frame (1), Step (4)
+- **Instructions:**
+  - **Add Second Frame and Step:** Attach the second side frame (1) and step (4) to the existing assembly from Step 1.
+
+### Step 3:
+- **Parts Needed:** Subassembly from Step 2, Step (5)
+- **Instructions:**
+  - **Install Final Step:** Secure step (5) to the structure assembled in Step 2.
+
+### Step 4:
+- **Parts Needed:** Completed Subassembly from Step 3
+- **Instructions:**
+  - **Finalize Assembly:** Ensure all parts are securely attached and the structure is stable, completing the assembly of the step stool.

@@ -1,0 +1,39 @@
+
+07:17PM on January 14, 2025
+=================================================================
+There are seven pages in the setup manual, each with a big black number on the left. Thus, there are seven total steps.
+
+### Step 1:
+- **Parts Needed:** Side Frame (3), Backrest Support (0)
+- **Instructions:**
+  - **Attach Backrest Support:** Connect the backrest support (0) to the side frame (3) as shown in the manual.
+
+### Step 2:
+- **Parts Needed:** Subassembly from Step 1, Backrest Support (1)
+- **Instructions:**
+  - **Add Second Backrest Support:** Attach the second backrest support (1) to the opposite side of the side frame (3).
+
+### Step 3:
+- **Parts Needed:** Subassembly from Step 2, Side Frame (4)
+- **Instructions:**
+  - **Connect Second Side Frame:** Attach the second side frame (4) to the backrest supports (0 and 1).
+
+### Step 4:
+- **Parts Needed:** Subassembly from Step 3, Seat Support (2)
+- **Instructions:**
+  - **Install Seat Support:** Connect the seat support (2) between the two side frames (3 and 4).
+
+### Step 5:
+- **Parts Needed:** Subassembly from Step 4, Front Support (7)
+- **Instructions:**
+  - **Attach Front Support:** Secure the front support (7) between the two side frames (3 and 4) at the front.
+
+### Step 6:
+- **Parts Needed:** Subassembly from Step 5, Backrest (5)
+- **Instructions:**
+  - **Mount Backrest:** Attach the backrest (5) to the backrest supports (0 and 1).
+
+### Step 7:
+- **Parts Needed:** Subassembly from Step 6, Seat (6)
+- **Instructions:**
+  - **Install Seat:** Place the seat (6) onto the seat support (2) and secure it in place.

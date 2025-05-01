@@ -1,0 +1,24 @@
+
+07:32PM on January 14, 2025
+=================================================================
+There are four pages in the setup manual, each with a big black number on the left. Thus, there are four total steps.
+
+### Step 1:
+- **Parts Needed:** Shelf Frame (0)
+- **Instructions:**
+  - **Assemble Shelf Frame:** Begin by assembling the shelf frame (0) as shown in the manual. This will serve as the main horizontal structure.
+
+### Step 2:
+- **Parts Needed:** Subassembly from Step 1, Side Leg (1), Corner Shelf (3)
+- **Instructions:**
+  - **Attach Side Leg and Corner Shelf:** Connect the first side leg (1) to the subassembly from Step 1. Then, attach the corner shelf (3) to the side leg and shelf frame.
+
+### Step 3:
+- **Parts Needed:** Subassembly from Step 2, Side Leg (2)
+- **Instructions:**
+  - **Add Second Side Leg:** Attach the second side leg (2) to the existing structure, ensuring it aligns with the corner shelf and shelf frame.
+
+### Step 4:
+- **Parts Needed:** Subassembly from Step 3, Support Bar (4)
+- **Instructions:**
+  - **Install Support Bar:** Finally, connect the support bar (4) between the two side legs to reinforce the structure and provide stability.

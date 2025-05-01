@@ -1,0 +1,19 @@
+
+[
+    {
+        "name": "seat",
+        "number": [0]
+    },
+    {
+        "name": "leg",
+        "number": [1]
+    },
+    {
+        "name": "leg",
+        "number": [2]
+    },
+    {
+        "name": "leg",
+        "number": [3]
+    }
+]

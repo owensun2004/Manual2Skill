@@ -1,0 +1,14 @@
+
+07:16PM on January 14, 2025
+=================================================================
+There are two pages of the setup manual, each with a big black number on the left. Thus, there are two total steps.
+
+### Step 1:
+- **Parts Needed:** Back Leg (6), Front Leg (5), Front Leg (2), Side Rail (3), Side Rail (0), Side Rail (1)
+- **Instructions:**
+  - **Assemble Frame:** Connect the back leg (6) with the front legs (5) and (2) using the side rails (3), (0), and (1) to form the basic frame structure as shown in the manual.
+
+### Step 2:
+- **Parts Needed:** Subassembly from Step 1, Seat (4)
+- **Instructions:**
+  - **Attach Seat:** Secure the seat (4) onto the frame assembled in Step 1, ensuring it is properly aligned and fastened as depicted in the manual.

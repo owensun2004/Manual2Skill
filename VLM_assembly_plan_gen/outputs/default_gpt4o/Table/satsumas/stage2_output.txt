@@ -1,0 +1,19 @@
+
+07:32PM on January 14, 2025
+=================================================================
+There are three pages in the setup manual, each with a big black number on the left. Thus, there are three total steps.
+
+### Step 1:
+- **Parts Needed:** Top Shelf (1), Legs (2, 3, 4, 5)
+- **Instructions:**
+  - **Attach Legs to Top Shelf:** Connect the four legs (2, 3, 4, 5) to the top shelf (1) as shown in the manual. Ensure each leg is securely attached to the corners of the top shelf.
+
+### Step 2:
+- **Parts Needed:** Subassembly from Step 1, Support Bars (6, 7)
+- **Instructions:**
+  - **Install Support Bars:** Attach the support bars (6, 7) horizontally between the legs. Position them midway up the legs to provide additional stability to the structure.
+
+### Step 3:
+- **Parts Needed:** Subassembly from Step 2, Shelf Frame (0)
+- **Instructions:**
+  - **Place Shelf Frame:** Position the shelf frame (0) on top of the support bars and secure it in place. Ensure it is aligned properly and stable.

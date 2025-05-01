@@ -1,0 +1,14 @@
+
+07:19PM on January 14, 2025
+=================================================================
+There are two pages of the setup manual, each with a big black number on the left. Thus, there are two total steps.
+
+### Step 1:
+- **Parts Needed:** Back Leg (0), Front Leg (1), Front Leg (2), Back Frame (3)
+- **Instructions:**
+  - **Assemble Frame:** Connect the back leg (0) and both front legs (1, 2) to the back frame (3) as shown in the manual. Ensure all parts are aligned correctly to form the base structure.
+
+### Step 2:
+- **Parts Needed:** Subassembly from Step 1, Seat Cushion (4)
+- **Instructions:**
+  - **Attach Seat Cushion:** Secure the seat cushion (4) to the assembled frame from Step 1. Make sure the cushion is properly aligned and attached to the frame.

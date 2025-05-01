@@ -1,0 +1,19 @@
+
+07:28PM on January 14, 2025
+=================================================================
+There are three pages in the setup manual, each with a big black number on the left. Thus, there are three total steps.
+
+### Step 1:
+- **Parts Needed:** Backrest (3), Side Rail (1), Front Leg (2)
+- **Instructions:**
+  - **Attach Side Rails and Legs:** Connect the side rail (1) to the backrest (3) and front leg (2) as shown in the manual. Ensure the side rail is securely attached between the backrest and front leg.
+
+### Step 2:
+- **Parts Needed:** Subassembly from Step 1, Top Rail (0)
+- **Instructions:**
+  - **Install Top Rail:** Attach the top rail (0) to the subassembly from Step 1. The top rail should connect the backrest and side rail, providing additional structural support.
+
+### Step 3:
+- **Parts Needed:** Subassembly from Step 2, Seat (4)
+- **Instructions:**
+  - **Secure the Seat:** Place the seat (4) onto the subassembly from Step 2. Ensure the seat is aligned properly and securely fastened to the frame.

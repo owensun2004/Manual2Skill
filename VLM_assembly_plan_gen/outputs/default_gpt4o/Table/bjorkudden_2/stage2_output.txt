@@ -1,0 +1,14 @@
+
+07:25PM on January 14, 2025
+=================================================================
+There are two pages of the setup manual, each with a big black number on the left. Thus, there are two total steps.
+
+### Step 1:
+- **Parts Needed:** Table Top (1), Frame (2)
+- **Instructions:**
+  - **Attach Frame to Table Top:** Position the frame (2) on the underside of the table top (1) as shown in the manual. Ensure the frame is aligned properly with the edges of the table top.
+
+### Step 2:
+- **Parts Needed:** Subassembly from Step 1, Legs (0, 3, 4, 5)
+- **Instructions:**
+  - **Attach Legs to Frame:** Secure each leg (0, 3, 4, 5) to the corners of the frame (2) from the subassembly in Step 1. Make sure each leg is firmly attached and aligned vertically.

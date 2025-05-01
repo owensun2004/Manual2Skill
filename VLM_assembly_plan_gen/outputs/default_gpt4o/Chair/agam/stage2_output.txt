@@ -1,0 +1,34 @@
+
+07:23PM on January 14, 2025
+=================================================================
+There are six pages in the setup manual, so there are six total steps.
+
+### Step 1:
+- **Parts Needed:** Seat (8), Backrest (9)
+- **Instructions:**
+  - **Attach Backrest to Seat:** Connect the backrest (9) to the seat (8) by aligning the backrest rods with the holes in the seat.
+
+### Step 2:
+- **Parts Needed:** Front Leg (0), Back Leg (3), Side Rail (1)
+- **Instructions:**
+  - **Connect Side Rail to Legs:** Attach the side rail (1) between the front leg (0) and the back leg (3).
+
+### Step 3:
+- **Parts Needed:** Front Rail (4), Back Rail (5)
+- **Instructions:**
+  - **Attach Rails to Legs:** Connect the front rail (4) and back rail (5) to the corresponding legs to form a rectangular base.
+
+### Step 4:
+- **Parts Needed:** Side Rail (2)
+- **Instructions:**
+  - **Complete Base Structure:** Attach the second side rail (2) to the opposite side of the base, connecting the front and back legs.
+
+### Step 5:
+- **Parts Needed:** Subassembly from Step 1, Subassembly from Step 4
+- **Instructions:**
+  - **Combine Seat and Base:** Secure the seat and backrest assembly from Step 1 onto the base structure from Step 4.
+
+### Step 6:
+- **Parts Needed:** Seat Support (6), Seat Support (7)
+- **Instructions:**
+  - **Add Seat Supports:** Attach the seat supports (6) and (7) underneath the seat to provide additional stability.

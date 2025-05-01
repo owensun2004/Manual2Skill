@@ -1,0 +1,24 @@
+
+07:33PM on January 14, 2025
+=================================================================
+There are four pages in the setup manual, so there are four total steps.
+
+### Step 1:
+- **Parts Needed:** Top Frame (3), Small Side Bar (0), Small Side Bar (1)
+- **Instructions:**
+  - **Attach Small Side Bars:** Connect the small side bars (0) and (1) horizontally to the top frame (3) as shown in the manual.
+
+### Step 2:
+- **Parts Needed:** Subassembly from Step 1, Center Support (4), Angled Leg (6), Angled Leg (7)
+- **Instructions:**
+  - **Position Center Support and Legs:** Attach the center support (4) vertically to the subassembly from Step 1. Then, connect the angled legs (6) and (7) to the sides of the center support.
+
+### Step 3:
+- **Parts Needed:** Subassembly from Step 2, Long Side Bar (2), Long Side Bar (5)
+- **Instructions:**
+  - **Connect Long Side Bars:** Attach the long side bars (2) and (5) horizontally to the subassembly from Step 2, ensuring they are parallel to the small side bars.
+
+### Step 4:
+- **Parts Needed:** Subassembly from Step 3
+- **Instructions:**
+  - **Finalize Assembly:** Secure the entire structure by ensuring all parts are tightly connected and aligned as shown in the manual.

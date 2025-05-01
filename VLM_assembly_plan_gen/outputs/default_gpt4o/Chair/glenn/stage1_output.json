@@ -1,0 +1,19 @@
+
+[
+    {
+        "name": "backrest",
+        "number": [0]
+    },
+    {
+        "name": "front leg frame",
+        "number": [1]
+    },
+    {
+        "name": "side support bar",
+        "number": [2]
+    },
+    {
+        "name": "seat",
+        "number": [3]
+    }
+]

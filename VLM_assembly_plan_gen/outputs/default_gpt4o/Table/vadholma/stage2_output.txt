@@ -1,0 +1,34 @@
+
+07:37PM on January 14, 2025
+=================================================================
+There are six pages in the setup manual, each with a big black number on the left. Thus, there are six total steps.
+
+### Step 1:
+- **Parts Needed:** Frame (3), Side Panel (2)
+- **Instructions:**
+  - **Attach Side Panel:** Position the side panel (2) vertically and attach it to the frame (3) as shown in the manual.
+
+### Step 2:
+- **Parts Needed:** Subassembly from Step 1, Side Slat (0)
+- **Instructions:**
+  - **Install Side Slat:** Secure the side slat (0) to the side panel (2) and frame (3) assembly.
+
+### Step 3:
+- **Parts Needed:** Subassembly from Step 2, Side Slat (6)
+- **Instructions:**
+  - **Add Second Side Slat:** Attach the second side slat (6) parallel to the first one on the opposite side of the side panel (2).
+
+### Step 4:
+- **Parts Needed:** Subassembly from Step 3, Frame (4)
+- **Instructions:**
+  - **Connect Second Frame:** Align and attach the second frame (4) to the existing structure, ensuring it is parallel to the first frame (3).
+
+### Step 5:
+- **Parts Needed:** Subassembly from Step 4, Bottom Shelf (5)
+- **Instructions:**
+  - **Insert Bottom Shelf:** Place the bottom shelf (5) between the two frames (3 and 4) and secure it in place.
+
+### Step 6:
+- **Parts Needed:** Subassembly from Step 5, Tabletop (1)
+- **Instructions:**
+  - **Attach Tabletop:** Position the tabletop (1) on top of the assembled structure and secure it to complete the furniture assembly.

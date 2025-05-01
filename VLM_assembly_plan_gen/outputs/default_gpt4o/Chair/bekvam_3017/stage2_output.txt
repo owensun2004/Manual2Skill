@@ -1,0 +1,29 @@
+
+07:26PM on January 14, 2025
+=================================================================
+There are five pages in the setup manual, each with a big black number on the left. Thus, there are five total steps.
+
+### Step 1:
+- **Parts Needed:** Side Frame (0), Support Bar (3)
+- **Instructions:**
+  - **Attach Support Bar:** Connect the support bar (3) to the side frame (0) as shown in the manual.
+
+### Step 2:
+- **Parts Needed:** Subassembly from Step 1, Side Frame (1), Support Bar (6)
+- **Instructions:**
+  - **Add Second Side Frame and Support Bar:** Attach the second side frame (1) and another support bar (6) to the existing structure from Step 1.
+
+### Step 3:
+- **Parts Needed:** Subassembly from Step 2, Step (2)
+- **Instructions:**
+  - **Install Step:** Secure the step (2) between the side frames, as depicted in the manual.
+
+### Step 4:
+- **Parts Needed:** Subassembly from Step 3, Step (5), Support Bar (7)
+- **Instructions:**
+  - **Add Additional Step and Support Bar:** Attach the additional step (5) and support bar (7) to the structure, following the manual's guidance.
+
+### Step 5:
+- **Parts Needed:** Subassembly from Step 4, Top Step (4)
+- **Instructions:**
+  - **Place Top Step:** Secure the top step (4) at the highest point between the side frames, completing the assembly.

@@ -1,0 +1,19 @@
+
+07:25PM on January 14, 2025
+=================================================================
+There are three pages of the setup manual, each with a big black number on the left. Thus, there are three total steps.
+
+### Step 1:
+- **Parts Needed:** Side Panel (1), Side Panel (2)
+- **Instructions:**
+  - **Attach Side Panels:** Connect side panel (1) and side panel (2) to the base structure as shown in the manual. Ensure they are aligned properly.
+
+### Step 2:
+- **Parts Needed:** Subassembly from Step 1, Support Bar (3), Support Bar (5)
+- **Instructions:**
+  - **Install Support Bars:** Attach support bar (3) and support bar (5) vertically between the side panels to provide stability.
+
+### Step 3:
+- **Parts Needed:** Subassembly from Step 2, Step (0), Step (4)
+- **Instructions:**
+  - **Add Horizontal Steps:** Place step (0) on the top and step (4) on the bottom of the structure, securing them to the side panels and support bars.

@@ -1,0 +1,47 @@
+
+[
+    {
+        "name": "table top",
+        "number": [0]
+    },
+    {
+        "name": "table top",
+        "number": [1]
+    },
+    {
+        "name": "side frame",
+        "number": [2]
+    },
+    {
+        "name": "side frame",
+        "number": [3]
+    },
+    {
+        "name": "support bar",
+        "number": [4]
+    },
+    {
+        "name": "support bar",
+        "number": [5]
+    },
+    {
+        "name": "leg",
+        "number": [6]
+    },
+    {
+        "name": "leg",
+        "number": [7]
+    },
+    {
+        "name": "leg",
+        "number": [8]
+    },
+    {
+        "name": "leg",
+        "number": [9]
+    },
+    {
+        "name": "center support",
+        "number": [10]
+    }
+]

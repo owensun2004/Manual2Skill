@@ -1,0 +1,31 @@
+
+[
+    {
+        "name": "table leg",
+        "number": [0]
+    },
+    {
+        "name": "table leg",
+        "number": [1]
+    },
+    {
+        "name": "side support",
+        "number": [2]
+    },
+    {
+        "name": "side support",
+        "number": [3]
+    },
+    {
+        "name": "crossbar",
+        "number": [4]
+    },
+    {
+        "name": "crossbar",
+        "number": [5]
+    },
+    {
+        "name": "tabletop",
+        "number": [6]
+    }
+]

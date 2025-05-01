@@ -1,0 +1,51 @@
+
+[
+    {
+        "name": "top frame",
+        "number": [0]
+    },
+    {
+        "name": "leg",
+        "number": [1]
+    },
+    {
+        "name": "top panel",
+        "number": [2]
+    },
+    {
+        "name": "support bar",
+        "number": [3]
+    },
+    {
+        "name": "side frame",
+        "number": [4]
+    },
+    {
+        "name": "side frame",
+        "number": [5]
+    },
+    {
+        "name": "bottom frame",
+        "number": [6]
+    },
+    {
+        "name": "leg",
+        "number": [7]
+    },
+    {
+        "name": "leg",
+        "number": [8]
+    },
+    {
+        "name": "leg",
+        "number": [9]
+    },
+    {
+        "name": "leg",
+        "number": [10]
+    },
+    {
+        "name": "support bar",
+        "number": [11]
+    }
+]

@@ -1,0 +1,39 @@
+
+07:21PM on January 14, 2025
+=================================================================
+There are seven pages in the setup manual, each with a big black number on the left. Thus, there are seven total steps.
+
+### Step 1:
+- **Parts Needed:** Bottom Panel (3), Legs (7, 8, 9, 10)
+- **Instructions:**
+  - **Attach Legs to Bottom Panel:** Connect the four legs (7, 8, 9, 10) to the bottom panel (3) as shown in the manual.
+
+### Step 2:
+- **Parts Needed:** Back Panel (4), Back Panel (5)
+- **Instructions:**
+  - **Join Back Panels:** Align and connect the two back panels (4, 5) together.
+
+### Step 3:
+- **Parts Needed:** Subassembly from Step 2, Side Panel (1)
+- **Instructions:**
+  - **Attach Side Panel:** Connect the side panel (1) to the assembled back panels from Step 2.
+
+### Step 4:
+- **Parts Needed:** Subassembly from Step 3, Side Panel (2)
+- **Instructions:**
+  - **Attach Second Side Panel:** Connect the second side panel (2) to the existing structure from Step 3.
+
+### Step 5:
+- **Parts Needed:** Subassembly from Step 4, Bottom Panel with Legs from Step 1
+- **Instructions:**
+  - **Combine Structures:** Attach the assembled side and back panels to the bottom panel with legs from Step 1.
+
+### Step 6:
+- **Parts Needed:** Shelf (6)
+- **Instructions:**
+  - **Insert Shelf:** Place the shelf (6) inside the cabinet structure, ensuring it is secure.
+
+### Step 7:
+- **Parts Needed:** Top Panel (0)
+- **Instructions:**
+  - **Secure Top Panel:** Place and secure the top panel (0) onto the assembled cabinet structure.

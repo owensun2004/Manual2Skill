@@ -1,0 +1,24 @@
+
+07:31PM on January 14, 2025
+=================================================================
+There are four pages in the setup manual, each with a big black number on the left. Thus, there are four total steps.
+
+### Step 1:
+- **Parts Needed:** Leg Panel (5), Support Bar (3)
+- **Instructions:**
+  - **Attach Support Bar to Leg Panel:** Connect the support bar (3) to the leg panel (5) as shown in the manual.
+
+### Step 2:
+- **Parts Needed:** Subassembly from Step 1, Side Panel (1)
+- **Instructions:**
+  - **Insert Side Panel:** Slide the side panel (1) into the subassembly from Step 1, ensuring it fits securely.
+
+### Step 3:
+- **Parts Needed:** Subassembly from Step 2, Top Panel (0)
+- **Instructions:**
+  - **Attach Top Panel:** Secure the top panel (0) onto the subassembly from Step 2, aligning it properly.
+
+### Step 4:
+- **Parts Needed:** Subassembly from Step 3, Side Panel (2), Support Bar (4), Leg Panel (6)
+- **Instructions:**
+  - **Complete Assembly:** Attach the second side panel (2), additional support bar (4), and the second leg panel (6) to the existing structure from Step 3, ensuring all parts are firmly connected.

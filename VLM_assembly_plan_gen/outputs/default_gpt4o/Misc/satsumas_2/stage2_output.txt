@@ -1,0 +1,24 @@
+
+07:36PM on January 14, 2025
+=================================================================
+There are four pages in the setup manual, each with a big black number on the left. Thus, there are four total steps.
+
+### Step 1:
+- **Parts Needed:** Leg (3), Leg (4), Leg (5), Support Bar (9)
+- **Instructions:**
+  - **Assemble Base:** Connect the three legs (3, 4, 5) to the support bar (9) to form the base structure as shown in the manual.
+
+### Step 2:
+- **Parts Needed:** Round Tray (0), Round Tray (1), Round Tray (2), Support Bar (6), Support Bar (7), Support Bar (8)
+- **Instructions:**
+  - **Attach Trays to Bars:** Secure each round tray (0, 1, 2) to a support bar (6, 7, 8) respectively, as depicted in the manual.
+
+### Step 3:
+- **Parts Needed:** Subassembly from Step 1, Subassembly from Step 2
+- **Instructions:**
+  - **Connect First Tray Assembly:** Attach one of the tray and bar assemblies from Step 2 to the base structure from Step 1.
+
+### Step 4:
+- **Parts Needed:** Remaining Subassemblies from Step 2
+- **Instructions:**
+  - **Complete Structure:** Attach the remaining tray and bar assemblies to the structure, ensuring all trays are securely fastened and aligned as shown in the manual.

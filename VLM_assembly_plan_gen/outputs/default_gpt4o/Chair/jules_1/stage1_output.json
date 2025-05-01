@@ -1,0 +1,35 @@
+
+[
+    {
+        "name": "screw",
+        "number": [0]
+    },
+    {
+        "name": "screw",
+        "number": [1]
+    },
+    {
+        "name": "wheel",
+        "number": [2]
+    },
+    {
+        "name": "screw",
+        "number": [3]
+    },
+    {
+        "name": "screw",
+        "number": [4]
+    },
+    {
+        "name": "screw",
+        "number": [5]
+    },
+    {
+        "name": "base",
+        "number": [6]
+    },
+    {
+        "name": "seat",
+        "number": [7]
+    }
+]

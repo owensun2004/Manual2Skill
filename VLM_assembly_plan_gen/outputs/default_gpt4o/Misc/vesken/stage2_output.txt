@@ -1,0 +1,25 @@
+
+07:18PM on January 14, 2025
+=================================================================
+There are four pages in the setup manual, each with a big black number on the left. Thus, there are four total steps.
+
+### Step 1:
+- **Parts Needed:** Bottom Shelf (2), Legs (3, 4, 5, 6), Wheels (7, 8, 9, 10)
+- **Instructions:**
+  - **Attach Wheels to Legs:** Connect each wheel (7, 8, 9, 10) to the bottom of each leg (3, 4, 5, 6).
+  - **Attach Legs to Bottom Shelf:** Insert each leg into the designated slots on the bottom shelf (2).
+
+### Step 2:
+- **Parts Needed:** Subassembly from Step 1, Middle Shelf (1)
+- **Instructions:**
+  - **Position Middle Shelf:** Place the middle shelf (1) onto the legs, ensuring it is securely fitted above the bottom shelf.
+
+### Step 3:
+- **Parts Needed:** Subassembly from Step 2, Additional Legs (3, 4, 5, 6)
+- **Instructions:**
+  - **Attach Additional Legs:** Connect the additional legs (3, 4, 5, 6) to the top of the middle shelf, aligning them with the existing structure.
+
+### Step 4:
+- **Parts Needed:** Subassembly from Step 3, Top Shelf (0)
+- **Instructions:**
+  - **Position Top Shelf:** Secure the top shelf (0) onto the newly attached legs, completing the assembly of the cart.

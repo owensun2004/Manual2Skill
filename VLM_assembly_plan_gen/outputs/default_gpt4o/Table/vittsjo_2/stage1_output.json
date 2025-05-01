@@ -1,0 +1,35 @@
+
+[
+    {
+        "name": "tabletop",
+        "number": [0]
+    },
+    {
+        "name": "drawer panel",
+        "number": [1]
+    },
+    {
+        "name": "L bracket",
+        "number": [2]
+    },
+    {
+        "name": "L bracket",
+        "number": [3]
+    },
+    {
+        "name": "frame",
+        "number": [4]
+    },
+    {
+        "name": "leg frame",
+        "number": [5]
+    },
+    {
+        "name": "leg",
+        "number": [6]
+    },
+    {
+        "name": "leg frame",
+        "number": [7]
+    }
+]

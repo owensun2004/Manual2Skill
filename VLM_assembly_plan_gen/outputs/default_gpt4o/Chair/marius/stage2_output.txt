@@ -1,0 +1,14 @@
+
+07:24PM on January 14, 2025
+=================================================================
+There are two pages in the setup manual, each with a big black number on the left. Thus, there are two total steps.
+
+### Step 1:
+- **Parts Needed:** Leg Frame (0), Leg Frame (1)
+- **Instructions:**
+  - **Connect Leg Frames:** Attach the two leg frames (0 and 1) together as shown in the manual. Ensure they are aligned properly to form the base structure of the stool.
+
+### Step 2:
+- **Parts Needed:** Subassembly from Step 1, Seat (2)
+- **Instructions:**
+  - **Attach Seat:** Secure the seat (2) onto the assembled leg frames from Step 1. Align the seat with the holes on the leg frames and ensure it is firmly attached.

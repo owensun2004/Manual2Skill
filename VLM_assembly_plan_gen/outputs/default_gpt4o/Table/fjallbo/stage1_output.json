@@ -1,0 +1,23 @@
+
+[
+    {
+        "name": "perforated shelf",
+        "number": [0]
+    },
+    {
+        "name": "table frame",
+        "number": [1]
+    },
+    {
+        "name": "tabletop",
+        "number": [2]
+    },
+    {
+        "name": "large support bar",
+        "number": [3]
+    },
+    {
+        "name": "small support bar",
+        "number": [4]
+    }
+]

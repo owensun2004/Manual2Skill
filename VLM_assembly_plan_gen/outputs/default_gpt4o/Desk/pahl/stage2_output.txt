@@ -1,0 +1,19 @@
+
+07:31PM on January 14, 2025
+=================================================================
+There are three pages in the setup manual, each with a big black number on the left. Thus, there are three total steps.
+
+### Step 1:
+- **Parts Needed:** Table Top (6), Legs (0, 1, 2, 3)
+- **Instructions:**
+  - **Attach Legs to Table Top:** Securely attach each of the four legs (0, 1, 2, 3) to the corners of the table top (6) as shown in the manual.
+
+### Step 2:
+- **Parts Needed:** Subassembly from Step 1, Support Bars (4, 5)
+- **Instructions:**
+  - **Install Support Bars:** Attach support bars (4, 5) between the legs to provide additional stability to the table structure.
+
+### Step 3:
+- **Parts Needed:** Subassembly from Step 2, Additional Support Bars (7, 8, 9, 10)
+- **Instructions:**
+  - **Add Remaining Support Bars:** Connect the remaining support bars (7, 8, 9, 10) to further stabilize the table, ensuring they are aligned as depicted in the manual.

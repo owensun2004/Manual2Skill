@@ -1,0 +1,39 @@
+
+[
+    {
+        "name": "table top",
+        "number": [0]
+    },
+    {
+        "name": "support beam",
+        "number": [1]
+    },
+    {
+        "name": "leg",
+        "number": [2]
+    },
+    {
+        "name": "leg",
+        "number": [3]
+    },
+    {
+        "name": "leg",
+        "number": [4]
+    },
+    {
+        "name": "leg",
+        "number": [5]
+    },
+    {
+        "name": "side support",
+        "number": [6]
+    },
+    {
+        "name": "side support",
+        "number": [7]
+    },
+    {
+        "name": "side support",
+        "number": [8]
+    }
+]

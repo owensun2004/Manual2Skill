@@ -1,0 +1,51 @@
+
+[
+    {
+        "name": "angled leg",
+        "number": [0]
+    },
+    {
+        "name": "tabletop",
+        "number": [1]
+    },
+    {
+        "name": "angled leg",
+        "number": [2]
+    },
+    {
+        "name": "shelf",
+        "number": [3]
+    },
+    {
+        "name": "support bar",
+        "number": [4]
+    },
+    {
+        "name": "angled support",
+        "number": [5]
+    },
+    {
+        "name": "angled leg",
+        "number": [6]
+    },
+    {
+        "name": "angled support",
+        "number": [7]
+    },
+    {
+        "name": "support bar",
+        "number": [8]
+    },
+    {
+        "name": "small support",
+        "number": [9]
+    },
+    {
+        "name": "angled leg",
+        "number": [10]
+    },
+    {
+        "name": "support bar",
+        "number": [11]
+    }
+]

@@ -1,0 +1,29 @@
+
+07:19PM on January 14, 2025
+=================================================================
+There are five pages in the setup manual, each with a big black number on the left. Thus, there are five total steps.
+
+### Step 1:
+- **Parts Needed:** Support Bar (4), Support Bar (5), Leg (6), Leg (7)
+- **Instructions:**
+  - **Assemble Base Frame:** Connect support bars (4) and (5) between legs (6) and (7) to form a rectangular base frame.
+
+### Step 2:
+- **Parts Needed:** Subassembly from Step 1, Side Panel (1), Side Panel (2)
+- **Instructions:**
+  - **Attach Side Panels:** Secure side panels (1) and (2) vertically to the subassembly from Step 1.
+
+### Step 3:
+- **Parts Needed:** Subassembly from Step 2, Shelf (3)
+- **Instructions:**
+  - **Insert Shelf:** Position and attach shelf (3) horizontally between the side panels.
+
+### Step 4:
+- **Parts Needed:** Subassembly from Step 3, Support Bar (10), Support Bar (11)
+- **Instructions:**
+  - **Stabilize Structure:** Attach support bars (10) and (11) horizontally at the top of the side panels to stabilize the structure.
+
+### Step 5:
+- **Parts Needed:** Subassembly from Step 4, Table Top (0), Leg (8), Leg (9)
+- **Instructions:**
+  - **Complete Assembly:** Secure the table top (0) onto the structure and attach legs (8) and (9) to complete the furniture assembly.

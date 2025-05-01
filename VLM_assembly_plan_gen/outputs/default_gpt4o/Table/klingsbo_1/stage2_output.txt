@@ -1,0 +1,19 @@
+
+07:29PM on January 14, 2025
+=================================================================
+There are three pages in the setup manual, each with a big black number on the left. Thus, there are three total steps.
+
+### Step 1:
+- **Parts Needed:** Leg Frame (0), Leg Frame (1), Leg Frame (4), Bottom Shelf (5)
+- **Instructions:**
+  - **Attach Leg Frames to Bottom Shelf:** Connect the leg frames (0, 1, 4) to the bottom shelf (5) as shown in the manual. Ensure the frames are evenly spaced around the shelf.
+
+### Step 2:
+- **Parts Needed:** Subassembly from Step 1, Support Bar (2), Top Ring (3)
+- **Instructions:**
+  - **Secure Support Bar and Top Ring:** Attach the support bar (2) between the leg frames. Then, place the top ring (3) on top of the leg frames, securing it in place.
+
+### Step 3:
+- **Parts Needed:** Subassembly from Step 2
+- **Instructions:**
+  - **Finalize Assembly:** Ensure all parts are securely fastened and the structure is stable. The top ring should be ready to hold the glass top.

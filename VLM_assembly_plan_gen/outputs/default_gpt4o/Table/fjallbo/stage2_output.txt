@@ -1,0 +1,19 @@
+
+07:27PM on January 14, 2025
+=================================================================
+There are three pages in the setup manual, indicating three total steps.
+
+### Step 1:
+- **Parts Needed:** Perforated Shelf (0), Large Support Bar (3), Small Support Bar (4)
+- **Instructions:**
+  - **Attach Support Bars:** Connect the large support bar (3) and the small support bar (4) to the perforated shelf (0) as shown in the manual.
+
+### Step 2:
+- **Parts Needed:** Table Frame (1), Tabletop (2)
+- **Instructions:**
+  - **Position Tabletop:** Place the tabletop (2) onto the table frame (1) ensuring it aligns properly as depicted in the manual.
+
+### Step 3:
+- **Parts Needed:** Subassembly from Step 1, Subassembly from Step 2
+- **Instructions:**
+  - **Combine Assemblies:** Attach the subassembly from Step 1 (perforated shelf with support bars) to the subassembly from Step 2 (table frame with tabletop) to complete the table structure.

@@ -1,0 +1,19 @@
+
+[
+    {
+        "name": "seat",
+        "number": [0]
+    },
+    {
+        "name": "side leg",
+        "number": [1]
+    },
+    {
+        "name": "back support",
+        "number": [2]
+    },
+    {
+        "name": "back support",
+        "number": [3]
+    }
+]

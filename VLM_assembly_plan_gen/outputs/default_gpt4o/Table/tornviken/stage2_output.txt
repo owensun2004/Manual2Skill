@@ -1,0 +1,54 @@
+
+07:36PM on January 14, 2025
+=================================================================
+There are ten pages in the setup manual, so there are ten total steps.
+
+### Step 1:
+- **Parts Needed:** Side Panel (1), Side Panel (2), Side Panel (3)
+- **Instructions:**
+  - **Attach Side Panels:** Secure side panels (1), (2), and (3) vertically onto the base structure as shown.
+
+### Step 2:
+- **Parts Needed:** Subassembly from Step 1, Shelf Support (4), Shelf Support (6)
+- **Instructions:**
+  - **Install Shelf Supports:** Attach shelf supports (4) and (6) horizontally between the side panels.
+
+### Step 3:
+- **Parts Needed:** Subassembly from Step 2, Shelf (5)
+- **Instructions:**
+  - **Place Shelf:** Position shelf (5) onto the installed shelf supports.
+
+### Step 4:
+- **Parts Needed:** Subassembly from Step 3, Shelf (7)
+- **Instructions:**
+  - **Add Second Shelf:** Place shelf (7) onto the next level of shelf supports.
+
+### Step 5:
+- **Parts Needed:** Subassembly from Step 4, Leg (9), Leg (10)
+- **Instructions:**
+  - **Attach Legs:** Secure legs (9) and (10) to the structure to provide support.
+
+### Step 6:
+- **Parts Needed:** Subassembly from Step 5, Leg (11)
+- **Instructions:**
+  - **Add Third Leg:** Attach leg (11) to complete the support structure.
+
+### Step 7:
+- **Parts Needed:** Subassembly from Step 6, Back Panel (8)
+- **Instructions:**
+  - **Install Back Panel:** Secure back panel (8) to the rear of the structure for stability.
+
+### Step 8:
+- **Parts Needed:** Subassembly from Step 7
+- **Instructions:**
+  - **Reinforce Structure:** Ensure all parts are tightly secured and aligned.
+
+### Step 9:
+- **Parts Needed:** Subassembly from Step 8
+- **Instructions:**
+  - **Final Adjustments:** Check the alignment and stability of the entire structure.
+
+### Step 10:
+- **Parts Needed:** Subassembly from Step 9, Table Top (0)
+- **Instructions:**
+  - **Attach Table Top:** Place and secure the table top (0) onto the assembled structure.

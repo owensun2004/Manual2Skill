@@ -1,0 +1,19 @@
+
+[
+    {
+        "name": "tabletop",
+        "number": [3]
+    },
+    {
+        "name": "leg frame",
+        "number": [0]
+    },
+    {
+        "name": "support bar",
+        "number": [1]
+    },
+    {
+        "name": "crossbar",
+        "number": [2]
+    }
+]

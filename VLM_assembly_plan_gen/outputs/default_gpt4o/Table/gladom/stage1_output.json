@@ -1,0 +1,19 @@
+
+[
+    {
+        "name": "table frame",
+        "number": [0]
+    },
+    {
+        "name": "table top",
+        "number": [1]
+    },
+    {
+        "name": "circular support",
+        "number": [2]
+    },
+    {
+        "name": "cross support",
+        "number": [3]
+    }
+]

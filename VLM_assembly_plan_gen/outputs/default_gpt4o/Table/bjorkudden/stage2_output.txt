@@ -1,0 +1,29 @@
+
+07:25PM on January 14, 2025
+=================================================================
+There are five pages in the setup manual, each with a big black number on the left. Thus, there are five total steps.
+
+### Step 1:
+- **Parts Needed:** Table Top (0), Support Beam (1)
+- **Instructions:**
+  - **Attach Support Beam:** Secure the support beam (1) to the underside of the table top (0) as shown in the manual.
+
+### Step 2:
+- **Parts Needed:** Subassembly from Step 1, Leg (2), Leg (3)
+- **Instructions:**
+  - **Attach Legs:** Connect the first two legs (2) and (3) to the support beam and table top assembly from Step 1.
+
+### Step 3:
+- **Parts Needed:** Side Support (6), Side Support (7)
+- **Instructions:**
+  - **Prepare Side Supports:** Assemble the side supports (6) and (7) together as shown in the manual.
+
+### Step 4:
+- **Parts Needed:** Subassembly from Step 2, Subassembly from Step 3
+- **Instructions:**
+  - **Attach Side Supports:** Connect the assembled side supports (6) and (7) to the legs and support beam structure from Step 2.
+
+### Step 5:
+- **Parts Needed:** Subassembly from Step 4, Leg (4), Leg (5), Side Support (8)
+- **Instructions:**
+  - **Complete Leg Assembly:** Attach the remaining legs (4) and (5) and the final side support (8) to complete the table structure.

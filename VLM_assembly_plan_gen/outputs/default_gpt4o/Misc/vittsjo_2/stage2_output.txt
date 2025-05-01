@@ -1,0 +1,19 @@
+
+07:20PM on January 14, 2025
+=================================================================
+There are three pages of the setup manual, each with a big black number on the left. Thus, there are three total steps.
+
+### Step 1:
+- **Parts Needed:** Side Frame (1), Side Frame (2), Support Frame (4), Support Frame (5)
+- **Instructions:**
+  - **Assemble the Frame:** Connect the side frames (1) and (2) with the support frames (4) and (5) to form the base structure as shown in the manual.
+
+### Step 2:
+- **Parts Needed:** Subassembly from Step 1, Back Frame (6)
+- **Instructions:**
+  - **Attach Back Frame:** Secure the back frame (6) to the assembled structure from Step 1, ensuring stability and support.
+
+### Step 3:
+- **Parts Needed:** Subassembly from Step 2, Table Top (0)
+- **Instructions:**
+  - **Install Table Top:** Place the table top (0) onto the frame assembly from Step 2, aligning it properly to complete the table structure.

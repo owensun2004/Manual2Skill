@@ -1,0 +1,29 @@
+
+07:18PM on January 14, 2025
+=================================================================
+There are five pages in the setup manual, each with a big black number on the left. Thus, there are five total steps.
+
+### Step 1:
+- **Parts Needed:** Backrest (0), Armrest (3)
+- **Instructions:**
+  - **Attach Armrest to Backrest:** Connect the armrest (3) to the backrest (0) as shown in the manual.
+
+### Step 2:
+- **Parts Needed:** Subassembly from Step 1, Armrest (3)
+- **Instructions:**
+  - **Attach Second Armrest:** Connect the second armrest (3) to the opposite side of the backrest (0).
+
+### Step 3:
+- **Parts Needed:** Subassembly from Step 2, Side Frame (2)
+- **Instructions:**
+  - **Attach Side Frame:** Connect the side frame (2) to the subassembly from Step 2, ensuring it aligns with the armrests.
+
+### Step 4:
+- **Parts Needed:** Subassembly from Step 3, Seat (1)
+- **Instructions:**
+  - **Attach Seat:** Secure the seat (1) to the subassembly, aligning it with the side frame and armrests.
+
+### Step 5:
+- **Parts Needed:** Subassembly from Step 4, Legs (4), (5)
+- **Instructions:**
+  - **Attach Legs:** Connect the legs (4) and (5) to the subassembly, ensuring stability and proper alignment with the seat and side frame.

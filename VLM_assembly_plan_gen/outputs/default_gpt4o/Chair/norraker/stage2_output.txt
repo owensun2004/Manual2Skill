@@ -1,0 +1,29 @@
+
+07:28PM on January 14, 2025
+=================================================================
+There are five pages in the setup manual, each with a big black number on the left. Thus, there are five total steps.
+
+### Step 1:
+- **Parts Needed:** Side Frame (1), Support Bar (3)
+- **Instructions:**
+  - **Attach Support Bar:** Connect the support bar (3) to the side frame (1) as shown in the manual.
+
+### Step 2:
+- **Parts Needed:** Subassembly from Step 1, Side Frame (2)
+- **Instructions:**
+  - **Add Second Side Frame:** Attach the second side frame (2) to the existing assembly from Step 1.
+
+### Step 3:
+- **Parts Needed:** Subassembly from Step 2, Seat (4)
+- **Instructions:**
+  - **Install Seat:** Place the seat (4) onto the assembled frame from Step 2.
+
+### Step 4:
+- **Parts Needed:** Subassembly from Step 3, Backrest (0)
+- **Instructions:**
+  - **Attach Backrest:** Secure the backrest (0) to the assembly from Step 3.
+
+### Step 5:
+- **Parts Needed:** Subassembly from Step 4, Support Bar (5)
+- **Instructions:**
+  - **Add Final Support Bar:** Connect the second support bar (5) to the back of the assembly for additional stability.

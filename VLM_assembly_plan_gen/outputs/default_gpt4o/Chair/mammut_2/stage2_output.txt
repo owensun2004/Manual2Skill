@@ -1,0 +1,9 @@
+
+07:24PM on January 14, 2025
+=================================================================
+There is one page of the setup manual, which means there is one step in the assembly process.
+
+### Step 1:
+- **Parts Needed:** Seat (0), Leg (1), Leg (2), Leg (3), Leg (4)
+- **Instructions:**
+  - **Attach Legs to Seat:** Connect each of the four legs (1, 2, 3, 4) to the underside of the seat (0). Ensure each leg clicks securely into place as shown in the manual.

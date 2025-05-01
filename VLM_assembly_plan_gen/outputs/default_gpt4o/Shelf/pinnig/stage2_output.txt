@@ -1,0 +1,24 @@
+
+07:22PM on January 14, 2025
+=================================================================
+There are four pages in the setup manual, each with a big black number on the left. Thus, there are four total steps.
+
+### Step 1:
+- **Parts Needed:** Top Panel (0), Support Bar (5), Support Bar (6)
+- **Instructions:**
+  - **Attach Support Bars:** Place the top panel (0) on a flat surface. Align and attach the support bars (5) and (6) along the length of the top panel as shown in the manual.
+
+### Step 2:
+- **Parts Needed:** Subassembly from Step 1, Side Frame (2)
+- **Instructions:**
+  - **Connect Side Frame:** Attach the side frame (2) vertically to one end of the subassembly from Step 1, ensuring it is securely connected to the support bars.
+
+### Step 3:
+- **Parts Needed:** Subassembly from Step 2, Shelf Panel (3)
+- **Instructions:**
+  - **Install Shelf Panel:** Position the shelf panel (3) horizontally between the support bars and secure it to the side frame (2) as illustrated in the manual.
+
+### Step 4:
+- **Parts Needed:** Subassembly from Step 3, Side Frame (4), Seat Slats (1)
+- **Instructions:**
+  - **Complete Structure:** Attach the second side frame (4) to the opposite end of the subassembly. Then, place the seat slats (1) on top of the support bars, ensuring they are evenly spaced and securely fastened.

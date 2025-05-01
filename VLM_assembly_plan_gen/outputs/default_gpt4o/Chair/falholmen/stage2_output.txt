@@ -1,0 +1,29 @@
+
+07:31PM on January 14, 2025
+=================================================================
+There are five pages in the setup manual, each with a big black number on the left. Thus, there are five total steps.
+
+### Step 1:
+- **Parts Needed:** Backrest Frame (0), Seat Frame (1)
+- **Instructions:**
+  - **Align and Connect:** Attach the backrest frame (0) to the seat frame (1) as shown in the manual.
+
+### Step 2:
+- **Parts Needed:** Subassembly from Step 1, Support Bar (5)
+- **Instructions:**
+  - **Attach Support Bar:** Secure the support bar (5) vertically to the backrest frame (0) and seat frame (1) for added stability.
+
+### Step 3:
+- **Parts Needed:** Subassembly from Step 2, Front Leg Frame (4)
+- **Instructions:**
+  - **Position Front Leg Frame:** Connect the front leg frame (4) to the seat frame (1) to form the base structure.
+
+### Step 4:
+- **Parts Needed:** Subassembly from Step 3, Armrest (2), Armrest (6)
+- **Instructions:**
+  - **Attach Armrests:** Secure the armrests (2) and (6) to the sides of the backrest frame (0) and front leg frame (4).
+
+### Step 5:
+- **Parts Needed:** Subassembly from Step 4, Seat Slats (3)
+- **Instructions:**
+  - **Install Seat Slats:** Attach the seat slats (3) onto the seat frame (1) to complete the seating surface.

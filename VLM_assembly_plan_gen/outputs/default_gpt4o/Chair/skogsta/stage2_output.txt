@@ -1,0 +1,19 @@
+
+07:19PM on January 14, 2025
+=================================================================
+There are three pages in the setup manual, each with a big black number on the left. Thus, there are three total steps.
+
+### Step 1:
+- **Parts Needed:** Cross Support (0), Cross Support (1)
+- **Instructions:**
+  - **Assemble Base Structure:** Connect the two cross supports (0 and 1) to form the base structure of the stool.
+
+### Step 2:
+- **Parts Needed:** Subassembly from Step 1, Leg (3), Leg (4), Leg (5), Leg (6)
+- **Instructions:**
+  - **Attach Legs:** Connect the four legs (3, 4, 5, and 6) to the base structure assembled in Step 1.
+
+### Step 3:
+- **Parts Needed:** Subassembly from Step 2, Seat (2)
+- **Instructions:**
+  - **Secure Seat:** Attach the seat (2) to the top of the leg and cross support assembly from Step 2.

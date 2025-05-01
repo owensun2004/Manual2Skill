@@ -1,0 +1,49 @@
+
+07:30PM on January 14, 2025
+=================================================================
+There are nine pages in the setup manual, so there are nine total steps.
+
+### Step 1:
+- **Parts Needed:** Long Leg (0), Long Leg (1)
+- **Instructions:**
+  - **Attach Legs to Frame:** Connect the long legs (0) and (1) to the side frame (4) as shown in the manual.
+
+### Step 2:
+- **Parts Needed:** Subassembly from Step 1, Long Leg (2)
+- **Instructions:**
+  - **Add Third Leg:** Attach the third long leg (2) to the existing assembly.
+
+### Step 3:
+- **Parts Needed:** Subassembly from Step 2, Long Leg (14)
+- **Instructions:**
+  - **Complete Leg Assembly:** Attach the fourth long leg (14) to the structure.
+
+### Step 4:
+- **Parts Needed:** Subassembly from Step 3, Side Frame (11)
+- **Instructions:**
+  - **Connect Side Frame:** Attach the side frame (11) to the top of the leg assembly.
+
+### Step 5:
+- **Parts Needed:** Support Bar (5), Support Bar (6), Support Bar (7)
+- **Instructions:**
+  - **Prepare Support Bars:** Arrange the support bars (5), (6), and (7) as shown in the manual.
+
+### Step 6:
+- **Parts Needed:** Subassembly from Step 4, Table Top (13)
+- **Instructions:**
+  - **Attach Table Top:** Secure the table top (13) onto the frame.
+
+### Step 7:
+- **Parts Needed:** Subassembly from Step 6, Short Leg (3), Short Leg (12)
+- **Instructions:**
+  - **Add Short Legs:** Attach the short legs (3) and (12) to the structure for additional support.
+
+### Step 8:
+- **Parts Needed:** Subassembly from Step 7, Cross Bar (8), Cross Bar (9), Cross Bar (10)
+- **Instructions:**
+  - **Install Cross Bars:** Attach the cross bars (8), (9), and (10) to the frame for stability.
+
+### Step 9:
+- **Parts Needed:** Completed Assembly
+- **Instructions:**
+  - **Final Adjustments:** Ensure all parts are securely fastened and the table is stable.

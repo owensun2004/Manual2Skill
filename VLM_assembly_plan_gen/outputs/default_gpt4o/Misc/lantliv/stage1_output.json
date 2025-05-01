@@ -1,0 +1,35 @@
+
+[
+    {
+        "name": "small side bar",
+        "number": [0]
+    },
+    {
+        "name": "small side bar",
+        "number": [1]
+    },
+    {
+        "name": "long side bar",
+        "number": [2]
+    },
+    {
+        "name": "top frame",
+        "number": [3]
+    },
+    {
+        "name": "center support",
+        "number": [4]
+    },
+    {
+        "name": "long side bar",
+        "number": [5]
+    },
+    {
+        "name": "angled leg",
+        "number": [6]
+    },
+    {
+        "name": "angled leg",
+        "number": [7]
+    }
+]

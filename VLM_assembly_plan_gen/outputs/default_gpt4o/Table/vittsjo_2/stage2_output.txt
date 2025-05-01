@@ -1,0 +1,29 @@
+
+07:39PM on January 14, 2025
+=================================================================
+There are five pages in the setup manual, each with a big black number on the left. Thus, there are five total steps.
+
+### Step 1:
+- **Parts Needed:** Leg Frame (5), L Bracket (2), L Bracket (3)
+- **Instructions:**
+  - **Attach L Brackets:** Connect the L brackets (2) and (3) to the leg frame (5) as shown in the manual.
+
+### Step 2:
+- **Parts Needed:** Subassembly from Step 1, Leg Frame (7)
+- **Instructions:**
+  - **Connect Leg Frames:** Attach the second leg frame (7) to the subassembly from Step 1.
+
+### Step 3:
+- **Parts Needed:** Subassembly from Step 2, Frame (4)
+- **Instructions:**
+  - **Assemble Frame:** Connect the frame (4) to the subassembly from Step 2, ensuring stability and alignment.
+
+### Step 4:
+- **Parts Needed:** Subassembly from Step 3, Drawer Panel (1)
+- **Instructions:**
+  - **Install Drawer Panel:** Attach the drawer panel (1) to the frame structure, as depicted in the manual.
+
+### Step 5:
+- **Parts Needed:** Subassembly from Step 4, Tabletop (0)
+- **Instructions:**
+  - **Place Tabletop:** Secure the tabletop (0) onto the assembled frame and drawer structure from Step 4.

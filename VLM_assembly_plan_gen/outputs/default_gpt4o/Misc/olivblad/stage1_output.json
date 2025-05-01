@@ -1,0 +1,51 @@
+
+[
+    {
+        "name": "long leg",
+        "number": [0]
+    },
+    {
+        "name": "large round top",
+        "number": [1]
+    },
+    {
+        "name": "medium round top",
+        "number": [2]
+    },
+    {
+        "name": "small round top",
+        "number": [3]
+    },
+    {
+        "name": "short connector",
+        "number": [4]
+    },
+    {
+        "name": "medium leg",
+        "number": [5]
+    },
+    {
+        "name": "three-way connector",
+        "number": [6]
+    },
+    {
+        "name": "short leg",
+        "number": [7]
+    },
+    {
+        "name": "medium connector",
+        "number": [8]
+    },
+    {
+        "name": "medium connector",
+        "number": [9]
+    },
+    {
+        "name": "short connector",
+        "number": [10]
+    },
+    {
+        "name": "short connector",
+        "number": [11]
+    }
+]

@@ -1,0 +1,24 @@
+
+07:20PM on January 14, 2025
+=================================================================
+There are four pages in the setup manual, each with a big black number on the left. Thus, there are four total steps.
+
+### Step 1:
+- **Parts Needed:** Top Panel (3), Support Bar (8), Support Bar (9)
+- **Instructions:**
+  - **Attach Support Bars:** Secure support bars (8) and (9) to the top panel (3) as shown in the manual.
+
+### Step 2:
+- **Parts Needed:** Subassembly from Step 1, Side Frame (0), Side Frame (1)
+- **Instructions:**
+  - **Connect Side Frames:** Attach side frames (0) and (1) to the subassembly from Step 1.
+
+### Step 3:
+- **Parts Needed:** Subassembly from Step 2, Slat (12), Slat (13), Slat (14)
+- **Instructions:**
+  - **Insert Slats:** Place slats (12), (13), and (14) into the structure formed in Step 2.
+
+### Step 4:
+- **Parts Needed:** Subassembly from Step 3, Side Frame (2), Support Bar (10), Support Bar (11)
+- **Instructions:**
+  - **Complete Structure:** Attach side frame (2) and support bars (10) and (11) to the existing assembly to complete the structure.

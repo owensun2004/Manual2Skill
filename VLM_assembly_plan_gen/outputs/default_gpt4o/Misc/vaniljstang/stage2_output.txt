@@ -1,0 +1,29 @@
+
+07:17PM on January 14, 2025
+=================================================================
+There are five pages in the setup manual, each with a big black number on the left. Thus, there are five total steps.
+
+### Step 1:
+- **Parts Needed:** Side Panel (2), Bottom Frame (5)
+- **Instructions:**
+  - **Connect Side Panel to Bottom Frame:** Attach the side panel (2) to the bottom frame (5) as shown in the manual.
+
+### Step 2:
+- **Parts Needed:** Subassembly from Step 1, Bottom Frame (6)
+- **Instructions:**
+  - **Attach Second Bottom Frame:** Connect the second bottom frame (6) to the existing assembly from Step 1.
+
+### Step 3:
+- **Parts Needed:** Subassembly from Step 2, Top Frame (0)
+- **Instructions:**
+  - **Add Top Frame:** Secure the top frame (0) to the structure assembled in Step 2.
+
+### Step 4:
+- **Parts Needed:** Subassembly from Step 3, Top Frame (1)
+- **Instructions:**
+  - **Attach Second Top Frame:** Connect the second top frame (1) to the current assembly, completing the upper structure.
+
+### Step 5:
+- **Parts Needed:** Subassembly from Step 4, Shelf (3), Side Panel (4)
+- **Instructions:**
+  - **Install Shelf and Final Side Panel:** Place the shelf (3) between the side panels and attach the final side panel (4) to complete the furniture assembly.
