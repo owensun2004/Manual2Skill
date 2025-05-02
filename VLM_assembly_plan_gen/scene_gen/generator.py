@@ -8,7 +8,7 @@ json_file_path = os.path.join(os.path.dirname(__file__), "../data", "main_data.j
 
 # Path to the scripts
 script_blender = os.path.join(os.path.dirname(__file__), "renderer.py")
-script_annotate = os.path.join(os.path.dirname(__file__), "anotator.py")
+script_annotate = os.path.join(os.path.dirname(__file__), "annotator.py")
 
 # Pickle path
 pkl_path = os.path.join(os.path.dirname(__file__), "data.pkl")
@@ -31,13 +31,14 @@ def main():
     gpu_id = "0"
     env = {**os.environ, "CUDA_VISIBLE_DEVICES": gpu_id}
 
-    output_file = "scene_rot_annotated.png"
+    output_file = "scene_rot.png"
 
     for i in range(0, len(data)):
         furniture_name = data[i]["name"]
         furniture_cat = data[i]["category"]
 
-        path = os.path.join(os.path.dirname(__file__), "data", "parts", furniture_cat, furniture_name)
+        path = os.path.join(os.path.dirname(__file__), "../data", "parts", furniture_cat, furniture_name)
+        os.makedirs(os.path.join(os.path.dirname(__file__), "../data/preassembly_scenes", furniture_cat, furniture_name), exist_ok=True)
 
         subprocess.run([
             "blender", 
@@ -50,15 +51,15 @@ def main():
             "--iteration_index", str(i),
             "--json_path", json_file_path,
             "--keypoints_data_path", pkl_path,
-            "--output_data_dir", os.path.join(os.path.dirname(__file__), "../data/pre-assembly_scenes", furniture_cat, furniture_name),
+            "--output_data_dir", os.path.join(os.path.dirname(__file__), "../data/preassembly_scenes", furniture_cat, furniture_name),
             "--output_file_name", output_file,
             "--blend_file_path", os.path.join(os.path.dirname(__file__), "blender_materials", "wood_2K_4ba225a0-3c19-44e8-80f1-33736bacb14f.blend"),
             "--no_3d_keypoints",
         ], check=True, env=env)
         subprocess.run([
-            "conda", "run", "-n", "fa", "python",
+            "conda", "run", "-n", "manual", "python",
             script_annotate,
-            "--input_data_dir", os.path.join(os.path.dirname(__file__), "../data/pre-assembly_scenes", furniture_cat, furniture_name),
+            "--input_data_dir", os.path.join(os.path.dirname(__file__), "../data/preassembly_scenes", furniture_cat, furniture_name),
             "--output_file_name", output_file,
             "--no_3d_keypoints",
         ], check=True)
