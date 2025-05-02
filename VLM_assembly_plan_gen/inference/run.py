@@ -16,7 +16,7 @@ def parse_args():
     p.add_argument("--end",   type=int, default=102)
     p.add_argument("--model", type=str, default="gpt-4o")
     p.add_argument("--temp",  type=float, default=0.0)
-    p.add_argument("--debug",  type=bool, default=False)
+    p.add_argument("--debug", action="store_true", help="Enable debug mode")
     # numbered or not_numbered
     p.add_argument("--prompt_type",  type=str, default="numbered")
     # original or varied

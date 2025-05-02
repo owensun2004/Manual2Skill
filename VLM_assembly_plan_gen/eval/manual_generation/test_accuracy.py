@@ -16,7 +16,7 @@ import sys
 # sys.setrecursionlimit(30) 
 
 PROJECT_ROOT = Path(__file__).parent.parent.parent.absolute()
-OUTPUT_DIR = os.path.join(PROJECT_ROOT, "outputs")
+OUTPUT_DIR = os.path.join(PROJECT_ROOT, "outputs/")
 
 
 def evaluate(model: Model, dataset: Dataset, check_symm: bool, args: argparse.Namespace):
@@ -157,7 +157,7 @@ if __name__ == '__main__':
     parser.add_argument('--parts_dir', type=str)
     parser.add_argument('--tree_dir', type=str, default="ours")
     parser.add_argument('--difficulty', type=str, default='all')
-    parser.add_argument("--debug",  type=bool, default=False)
+    parser.add_argument("--debug", action="store_true", help="Enable debug mode")
     args = parser.parse_args()
 
     dataset = Dataset(data_json=args.data_json, parts_dir=args.parts_dir, part_features_pkl=args.part_features_pkl)
