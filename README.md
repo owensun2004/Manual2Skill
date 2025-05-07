@@ -30,8 +30,8 @@ This is the official implementation of **[Manual2Skill](https://owensun2004.gith
 
 This repository contains code for the 2 critical sections of Manual2Skill: 
 
-1. **VLM-Guided Hierachical Assembly Graph Generation**
-2. **Per-step Assembly Pose Estimation Planning and Execution**
+1. **Hierachical Assembly Graph Generation**
+2. **Per-step Assembly Pose Estimation**
 
 
 ### Installation
@@ -61,8 +61,8 @@ rm blender-3.6.19-linux-x64.tar.xz
 export OPENAIKEY="your-api-key"
 ```
 
-## VLM-Guided Hierachical Assembly Graph Generation
-This section includes scripts for generating variations in pre-assembly scene, running VLM inference on the 102 furniture, and performing evaluation for VLM generated results.
+## Hierachical Assembly Graph Generation
+This section includes scripts for generating variations in pre-assembly scene, running VLM inference on the 102 furniture to generate hierachical assembly graphs, and performing evaluation for VLM generated results.
 
 ```bash
 cd VLM_assembly_graph_gen
@@ -117,7 +117,7 @@ Parameters
 
 Overall, gpt-4o with a temperature of 0 achieves great performance. The prompt_type and scene_type do not affect the performance too much.
 
-### Evaluate
+### Evaluation
 Navigate to evaluation scripts (assuming you are currently under `VLM_assembly_graph_gen`):
 ```bash
 cd eval
