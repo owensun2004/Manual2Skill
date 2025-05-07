@@ -3,9 +3,6 @@
 
 <h5 align="center">
 
-
-
-
 [Chenrui Tie](https://crtie.github.io/),
 [Shengxiang Sun](https://owensun2004.github.io/),
 [Jinxuan Zhu](https://www.linkedin.com/in/jinxuan-zhu-08a8972b7/),
@@ -19,7 +16,7 @@
 
 <font color="black"><strong>RSS 2025</strong></font> 
 
-[![arXiv](https://img.shields.io/badge/Arxiv-2503.24391-b31b1b.svg?logo=arXiv)](https://arxiv.org/abs/2502.10090) 
+[![arXiv](https://img.shields.io/badge/Paper-arXiv-red)](https://arxiv.org/abs/2502.10090) 
 [![Home Page](https://img.shields.io/badge/Project-Website-green.svg)](https://owensun2004.github.io/Furniture-Assembly-Web) 
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/15XH8jhqodE4-GuiIe_IRrwjaeZt6uiQj?usp=sharing)
 
@@ -33,8 +30,8 @@ This is the official implementation of **[Manual2Skill](https://owensun2004.gith
 
 This repository contains code for the 2 critical sections of Manual2Skill: 
 
-1. VLM-Guided Hierachical Assembly Graph Generation
-2. Per-step Assembly Pose Estimation Planning and Execution
+1. **VLM-Guided Hierachical Assembly Graph Generation**
+2. **Per-step Assembly Pose Estimation Planning and Execution**
 
 
 ### Installation
