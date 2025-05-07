@@ -156,10 +156,10 @@ Part of the code are adapted from [IKEA-Manual](https://cs.stanford.edu/~rcwang/
 If you find our work useful, please cite:
 
 ```bibtex
-@article{tie2025manual,
+@inproceedings{tie2025manual,
   title     = {Manual2Skill: Learning to Read Manuals and Acquire Robotic Skills for Furniture Assembly Using Vision-Language Models},
   author    = {Tie, Chenrui and Sun, Shengxiang and Zhu, Jinxuan and Liu, Yiwei and Guo, Jingxiang and Hu, Yue and Chen, Haonan and Chen, Junting and Wu, Ruihai and Shao, Lin},
-  journal   = {arXiv preprint arXiv:2502.10090},
+  booktitle   = {Proceedings of Robotics: Science and Systems (RSS)},
   year      = {2025}
 }
 ```
