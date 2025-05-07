@@ -1,18 +1,43 @@
-# Manual2Skill
+<h2 align="center"> <a href="https://owensun2004.github.io/Furniture-Assembly-Web/">Manual2Skill: Learning to Read Manuals and Acquire Robotic Skills for Furniture Assembly Using Vision-Language Models</a>
+</h2>
 
-This is the official repo for the paper "Manual2Skill: Learning to Read Manuals and Acquire Robotic Skills for Furniture Assembly Using Vision-Language Models."
-It contains code for the 2 critical sections of Manual2Skill: (1) VLM-Guided Hierachical Assembly Graph Generation, and (2) Per-step Assembly Pose Estimation
-Planning and Execution
+<h5 align="center">
 
-![Demo Preview](assets/demo.gif) <!-- Replace with actual image path -->
 
----
-## Installation
 
-### Prerequisites
-- CUDA
 
-### Setup
+[Chenrui Tie](https://crtie.github.io/),
+[Shengxiang Sun](https://owensun2004.github.io/),
+[Jinxuan Zhu](https://www.linkedin.com/in/jinxuan-zhu-08a8972b7/),
+[Yiwei Liu](https://lew1sin.github.io/),
+[Jingxiang Guo](https://borisguo6.github.io/),
+[Yue Hu](https://blog.csdn.net/xyyxyyx),
+[Haonan Chen](https://github.com/chenhn02),
+[Junting Chen](https://sgtvincent.github.io/),
+[Ruihai Wu](https://warshallrho.github.io/),
+[Lin Shao](https://linsats.github.io/)
+
+<font color="black"><strong>RSS 2025</strong></font> 
+
+[![arXiv](https://img.shields.io/badge/Arxiv-2503.24391-b31b1b.svg?logo=arXiv)](https://arxiv.org/abs/2502.10090) 
+[![Home Page](https://img.shields.io/badge/Project-Website-green.svg)](https://owensun2004.github.io/Furniture-Assembly-Web) 
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/15XH8jhqodE4-GuiIe_IRrwjaeZt6uiQj?usp=sharing)
+
+This is the official implementation of **[Manual2Skill](https://owensun2004.github.io/Furniture-Assembly-Web)**, a novel framework that enables robots to perform complex assembly tasks guided by high-level manual instructions.
+
+</h5>
+
+![Demo Preview](assets/fig1.png)
+
+## Getting Started
+
+This repository contains code for the 2 critical sections of Manual2Skill: 
+
+1. VLM-Guided Hierachical Assembly Graph Generation
+2. Per-step Assembly Pose Estimation Planning and Execution
+
+
+### Installation
 1. Clone repository:
   ```bash
   git clone https://github.com/owensun2004/Manual2Skill.git
@@ -40,82 +65,86 @@ export OPENAIKEY="your-api-key"
 ```
 
 ## VLM-Guided Hierachical Assembly Graph Generation
-This section includes scripts for running VLM inference on the 102 furniture, generating variations in pre-assembly scene, ablation studies, and different evaluation metrics for VLM generation results
+This section includes scripts for generating variations in pre-assembly scene, running VLM inference on the 102 furniture, and performing evaluation for VLM generated results.
 
 ```bash
 cd VLM_assembly_graph_gen
 ```
 
 ### Data Preparation
-To access the data for the 102 furniture items' manuals and pre-assembly scenes, simply download and unzip the ZIP folder
+Download and extract data for 102 furniture manuals and pre-assembly scenes:
 ```bash
 mkdir data
 gdown https://drive.google.com/uc?id=1hPesH_zd_NMd842JGaXaUxkviLU2Th4L
 unzip data.zip -d ./data
 ```
 
+### Pre-assembly scene generations
+This section explains how to use Blender to generate variations pre-assembly scenes:
+```bash
+python scene_gen/generator.py --rand_translate true --rand_rotate true
+```
+- `--rand_translate true` randomly shuffles furniture parts
+- `--rand_rotate true` randomly rotates furniture parts in place
+- If neither argument is specified, original pre-assembly scenes from `data/preassembly_scenes` will be generated again
+
+Generated scenes are saved as `scene_rot.png` and `scene_rot_annotated.png` under `data/preassembly_scenes` for each furniture item. Each run produces unique scenes due to randomness.
+
 ### VLM inference
-To generate assembly graphs for each furniture, we need to run inference on the VLM. Please note that inferencing on each furniture item will approximately take 15 images and 1700 words as input, and will take 1-2 minutes to obtain the output assembly graph. To run VLM inference on all 102 furniture, you can use the following command. 
+This section explains how to generate assembly graphs for each furniture.  Each furniture item uses approximately 15 images and 1700 words, taking around 1-2 minutes per item. 
+
+**Example (default parameters with original pre-assembly scene for all furniture):**
 ```bash
 python inference/run.py 
 ```
-This will output to a folder under `outputs` named with the current time of the run, which contains all the furniture items' predicted assembly graphs. Under each furniture, you will see a `tree.json` which stores the predicted assembly graph in a nested array.
+Outputs will be stored in `outputs/[timestamp]/` with each furniture item containing a `tree.json`, which stores the predicted assembly graph in a nested array.
 
-You can also change some parameters such as the temperature, model, furniture items, and input manual type. For example, to run the assembly graph generation for the first two furniture items (Bench/applaro and Bench/applaro_2) using input manuals without numbers:
-
+**Custom Parameters Example**
 ```bash
-python inference/run.py --start 0 --end 2 --temperature 0.1 --model o1 --prompt_type not_numbered --debug
-
-# --start and --end values from 0 to 102
-# --temperature ranges from 0 to 1
-# --model includes gpt-4o, gpt-4.5, o1, o3
-# --prompt_type includes numbered and not_numbered
-# Use --debug to see the full VLM inputs and outputs, this will save additional .txt and .json files for each stage of each furniture under the output folder of the current run
+python inference/run.py \
+--start 0 \
+--end 2 \
+--temperature 0.1 \
+--model o1 \
+--prompt_type not_numbered \
+--scene_type varied \
+--debug
 ```
+Parameters
+- `--start` and `--end`: Furniture item index (0-101) if you want to inference on a specific subset of furniture
+- `--temperature`: Controls generation randomness (0-1)
+- `--model`: Selects from `gpt-4o`, `gpt-4.5`, `o1`, or `o3`
+- `--prompt_type`: Selects from `numbered` or `not_numbered` manual, indicating whether there is a number next to each input manual image, which represents the current assembly step
+- `--scene_type`: Selects from the `original` pre-assembly scene, or the `varied` pre-assembly scene that you generated with Blender above
+- `--debug`: Enables detailed input/output logging saved as .txt and .json files under the output folder of the current run
+
+Overall, gpt-4o with a temperature of 0 achieves great performance. The prompt_type and scene_type do not affect the performance too much.
 
 ### Evaluate
-First, make sure to change to the `eval` directory.
-
-Assuming you are currently under `VLM_assembly_graph_gen`, type this command:
+Navigate to evaluation scripts (assuming you are currently under `VLM_assembly_graph_gen`):
 ```bash
 cd eval
 ```
 
 To test the success rates of your generated assembly graphs, copy the name of your inference output folder to `--tree_dir`. For example, suppose your most recent inference output folder is named `2025_05_01_193302`, then you can type this command:
 ```bash
-export PYTHONPATH=$PYTHONPATH:$(pwd) python manual_generation/test_accuracy.py --data_json ../data/main_data.json --parts_dir ../data/parts --part_features_pkl resources/features_dgcnn_1024_102.pkl --tree_dir 2025_05_01_193302
-
-# --data_json, --parts_dir, --part_features_pkl are mandatory arguments
-# --tree_dir specifies the generated assembly graphs to evaluate. It can be set to ours (which evaluates the assembly graph results reported in the paper's Table I), 'singlestep', 'geocluster' (which are the baselines), or the name of your custom generated assembly graph folder.
-# --difficulty can be set to 'easy' for evaluating furniture with only 2-4 parts, 'medium' for 5-6 parts, 'hard' for 7-8 parts, 'impossible' for 9-19 parts, and 'all' for 2-19 parts
-# To the predicted assembly graphs for each individual furniture, use --debug
+export PYTHONPATH=$PYTHONPATH:$(pwd)
+python manual_generation/test_accuracy.py \
+  --data_json ../data/main_data.json \
+  --parts_dir ../data/parts \
+  --part_features_pkl resources/features_dgcnn_1024_102.pkl \
+  --tree_dir 2025_05_01_193302
 ```
+Parameters
+- `--data_json`, `--parts_dir`, `--part_features_pkl`: Mandatory arguments
+- `--tree_dir`: Specify output directory name containing the generated assembly graphs for evaluation
+  - Examples: Your own inference folder mentioned above, `ours` (paper results), `singlestep` or `geocluster` (baselines)
+- `--difficulty`: Evalutate by complexity (`easy` only evaluates furniture with 2-4 parts, `medium` is for 5-6 parts, `hard` for 7-8 parts, `impossible` for 9-19 parts, and `all` for evaluating all furniture with 2-19 parts)
+- `--debug`: Print the predicted assembly graphs for each individual furniture
 
-Sometimes, you may encouter `json.decoder.JSONDecodeError: Extra data`, this is due to the VLM's limitations, which may sometimes output an incorrect json file. In this case, it is helpful to set the `--debug` parameter to see which furniture's assembly graph contains a wrong `tree.json` file, and edit the file accordingly.
+Sometimes, you may encouter `json.decoder.JSONDecodeError: Extra data`, this is due to the VLM's limitations, which may output an incorrectly formatted json file. In this case, set the `--debug` parameter to see which furniture contains a wrong `tree.json` file, and edit the file accordingly.
 
 Disclaimer: Because of the complexity of the prompts and the multi-stage VLM querying theme, the VLM may output different results even with the same inputs. This may result in slightly different success rates compared to the metrics reported in the paper. We expect the success rate to further increase as better VLMs are introduced.
-### Pre-assembly scene generations
-To generate variations of pre-assembly scenes, such as rotating and shuffling different parts, we must use blender. First, go back to `VLM_assembly_graph_gen` directory (assuming you are currently under `VLM_assembly_graph_gen/eval`):
-```bash
-cd ..
-```
-
-Then type this command:
-```bash
-python scene_gen/generator.py --rand_translate true --rand_rotate true
-
-# if you want to randomly shuffle furniture parts, set --rand_translate true
-# if you want to randomly rotate furniture parts in-place, set --rand_rotate true
-# if you leave these two arguments empty, the generated scenes will be the same as the original scene_annotated.png provided in the data/preassembly_scenes folder
-```
-
-This will create `scene_rot.png` and `scene_rot_annotated.png` under the `data/preassembly_scenes` for each furniture item. Please note that since the rotations and translations are performed randomly, each run will produce different scenes.
-
-To test the VLM's assembly graph generation performance for these scene variations, simply use the `--scene_type` argument for VLM inference:
-```bash
-python inference/run.py --scene_type not_original
-```
-And then use the same procedures for evaluation and getting the success rate as mentioned above.
 
 ## Per-step Assembly Pose Estimation
 
@@ -123,7 +152,17 @@ And then use the same procedures for evaluation and getting the success rate as 
 
 ### Inference & Evaluation
 
+## Acknowledgements
+Part of the code are adapted from [IKEA-Manual](https://cs.stanford.edu/~rcwang/projects/ikea_manual/). We thank the authors for their excellent work!
 
+## Citation
+If you find our work useful, please cite:
 
-
-
+```bibtex
+@article{tie2025manual,
+  title     = {Manual2Skill: Learning to Read Manuals and Acquire Robotic Skills for Furniture Assembly Using Vision-Language Models},
+  author    = {Tie, Chenrui and Sun, Shengxiang and Zhu, Jinxuan and Liu, Yiwei and Guo, Jingxiang and Hu, Yue and Chen, Haonan and Chen, Junting and Wu, Ruihai and Shao, Lin},
+  journal   = {arXiv preprint arXiv:2502.10090},
+  year      = {2025}
+}
+```
