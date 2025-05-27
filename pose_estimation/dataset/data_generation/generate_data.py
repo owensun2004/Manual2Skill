@@ -26,7 +26,8 @@ def call_python_script(script_path, **kwargs):
 
 def call_blender_script(script_path, **kwargs):
     # Create the command line string
-    command = ['/data2/lyw/blender-4.3.2-linux-x64/blender', '-b', '-P', script_path]
+    blender_path = os.path.abspath('../../../../blender-4.3.2-linux-x64/blender')
+    command = [blender_path, '-b', '-P', script_path]
     
     # Add --param_name argument for each named parameter
     for key, value in kwargs.items():
@@ -54,11 +55,11 @@ if __name__ == "__main__":
     #! README: num_data_per_image: The number of data to generate for each image
     #! README: The total number of data pieces generated will be num_parts_selection * image_per_selection * num_data_per_image
     
-    # partnet/partnet_dataset/stats/new_raw_data/ is the original dataset directory
-    input_dir = '/data2/lyw/rss_data/partnet/partnet_dataset/stats/new_raw_data/' 
+    # ../raw_data is the original dataset directory
+    input_dir = '../raw_data' 
 
-    # /data2/lyw/partnet_chair_mono is the target saved directory 
-    dataset_dir = os.path.abspath('/data2/lyw/partnet_chair_mono')
+    # ../../../../partnet_chair_mono is the target saved directory 
+    dataset_dir = os.path.abspath('../../../../partnet_chair_mono')
     os.makedirs(dataset_dir, exist_ok=True)
 
     # Target classes and their quantities
