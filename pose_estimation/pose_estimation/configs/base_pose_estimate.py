@@ -23,7 +23,7 @@ _C.data = CN()
 _C.data.train_ratio = 0.7
 _C.data.seed = 42
 
-_C.data.dir = '/data2/lyw/IKEA_data3'
+_C.data.dir = '../../partnet_chair_mono'
 _C.data.min_num_part = 2
 _C.data.max_num_part = 6
 _C.data.is_partnet = True
@@ -45,7 +45,7 @@ _C.train.num_viz = 50
 _C.train.lr = 1e-5
 _C.train.l2_norm = 1e-7
 _C.train.pretrained = True
-_C.train.pretrained_weights = '/data2/lyw/Furniture-Assembly/pose_estimation/logs/GNNNetwork_IKEA_data3_04-04-11-55-07/best.ckpt'
+_C.train.pretrained_weights = ''
 _C.train.patience = 15
 _C.train.device = 'cuda:1' if not _C.dist.distributed else 'cuda:0'
 _C.train.log_interval = 10
