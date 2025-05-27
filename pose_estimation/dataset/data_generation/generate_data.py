@@ -57,6 +57,10 @@ if __name__ == "__main__":
     # partnet/partnet_dataset/stats/new_raw_data/ is the original dataset directory
     input_dir = '/data2/lyw/rss_data/partnet/partnet_dataset/stats/new_raw_data/' 
 
+    # ../../../../partnet_mono/ is the target saved directory 
+    dataset_dir = os.path.abspath('../../../../partnet_mono/')
+    os.makedirs(dataset_dir, exist_ok=True)
+
     # Target classes and their quantities
     target_classes = {"Chair": 100, "Lamp": 100, "Table": 100}
     selected_folders = {key: [] for key in target_classes}  # Store the selected folders
@@ -81,8 +85,6 @@ if __name__ == "__main__":
     for category, folders in selected_folders.items():
         selected_folder_list.extend(folders)
 
-    dataset_dir = os.path.abspath('../../../../partnet_mono/')
-    os.makedirs(dataset_dir, exist_ok=True)
     num_parts_selection = 10
     image_per_selection = 20
     image_res_H = 576
