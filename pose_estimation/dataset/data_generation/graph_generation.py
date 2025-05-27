@@ -56,7 +56,7 @@ def load_obj_files(directory):
     file_list = []
     for filename in os.listdir(directory):
         if filename.endswith('.obj'):
-            # 将绝对路径添加到文件列表中
+            # Add the absolute path to the file list
             # print(filename)
             file_list.append(os.path.abspath(os.path.join(directory, filename)))
     file_list.sort()
@@ -91,34 +91,31 @@ def find_nearby_points(pts1, pts2, num_points=10):
 
 def find_nearby_points_in_ball(pts1, pts2, radius=0.1):
     """
-    找到两个点云中距离最近的点对，并以最近点对的中点为中心，
-    查找在小球范围内的所有点。
+    Find the closest point pair in the two point clouds and take the midpoint of the closest point pair as the center,
+    find all the points within the range of the ball
     
-    :param pts1: 点云 1，形状为 (N, 3)。
-    :param pts2: 点云 2，形状为 (M, 3)。
-    :param radius: 小球的半径。
-    :return: 包含小球范围内的点（来自两个点云）。
+    :param pts1: Point cloud 1, with the shape of (N, 3).
+    :param pts2: Point cloud w, with the shape of (N, 3).
+    :param radius: The radius of the ball.
+    :return: The points within the range of the small ball (from two point clouds).
     """
-    # 构建 KD 树
+    # Construct the KD tree
     tree1 = cKDTree(pts1)
     tree2 = cKDTree(pts2)
 
-    # 查找最近点对
-    distances1, indices1 = tree1.query(pts2, k=1)  # pts2 到 pts1 的最近点
-    min_distance_idx = np.argmin(distances1)  # 最近点对的索引
-    point1 = pts1[indices1[min_distance_idx]]  # 点云 1 中的最近点
-    point2 = pts2[min_distance_idx]            # 点云 2 中的最近点
+    # Search for the nearest point pair
+    distances1, indices1 = tree1.query(pts2, k=1)  # The nearest point from pts2 to pts1
+    min_distance_idx = np.argmin(distances1)  # The index of the most recent point
+    point1 = pts1[indices1[min_distance_idx]]  # The nearest point in point cloud 1
+    point2 = pts2[min_distance_idx]            # The nearest point in point cloud 2
 
-    # 计算小球中心（最近点对的中点）
+    # Calculate the center of the small ball (the midpoint of the nearest point pair)
     ball_center = (point1 + point2) / 2
 
-    # 查找小球范围内的点
-    # points_in_ball1 = pts1[tree1.query_ball_point(ball_center, radius)]  # 点云 1 中的小球范围点
-    # points_in_ball2 = pts2[tree2.query_ball_point(ball_center, radius)]  # 点云 2 中的小球范围点
     return tree1.query_ball_point(ball_center, radius), tree2.query_ball_point(ball_center, radius)
 
 
-# 辅助函数：使用BFS检查图的连通性
+# Helper function: Use BFS to check the connectivity of the graph
 def is_connected(graph, remaining_nodes, start_node):
     visited = set()
     queue = deque([start_node])
@@ -127,41 +124,39 @@ def is_connected(graph, remaining_nodes, start_node):
         node = queue.popleft()
         if node not in visited:
             visited.add(node)
-            # 遍历与当前结点相邻的所有边
+            # Traverse all the edges adjacent to the current node
             for (n1, n2) in graph:
                 if n1 == node and n2 in remaining_nodes and n2 not in visited:
                     queue.append(n2)
                 elif n2 == node and n1 in remaining_nodes and n1 not in visited:
                     queue.append(n1)
     
-    # 如果访问的节点数等于剩余节点的数量，说明图是连通的
+    # If the number of visited nodes is equal to the number of remaining nodes, it indicates that the graph is connected
     return len(visited) == len(remaining_nodes)
 
-# 随机删除结点并保持图的连通性
+# Randomly delete nodes and maintain the connectivity of the graph
 def remove_nodes(graph, nodes, remove_count, max_attempts=100):
     mask = [1 for node in nodes]
-    # 已删除的结点集合
+    # The set of deleted nodes
     deleted_nodes = set()
     current_attempt = 0
     while len(deleted_nodes) < remove_count and current_attempt < max_attempts:
         current_attempt += 1
-        # 随机选择要删除的结点
+        # Randomly select the nodes to be deleted
         nodes_to_remove = random.sample([node for node in nodes if node not in deleted_nodes], remove_count - len(deleted_nodes))
         
-        # 删除结点后需要重新计算图的边集
+        # After deleting a node, the edge set of the graph needs to be recalculated
         new_graph = [(n1, n2) for (n1, n2) in graph if n1 not in nodes_to_remove and n2 not in nodes_to_remove]
         
-        # 检查图是否连通
+        # Check whether the graph is connected
         if is_connected(new_graph, set(nodes) - deleted_nodes - set(nodes_to_remove), nodes[0]):
-            # print(f"成功删除结点 {nodes_to_remove}，图仍然连通")
-            deleted_nodes.update(nodes_to_remove)  # 记录删除的结点
+            deleted_nodes.update(nodes_to_remove)  
             for node in nodes_to_remove:
                 mask[node] = 0
         else:
-            # print(f"删除结点 {nodes_to_remove} 后图不连通，重新选择结点进行删除")
             continue
 
-    # 返回删除后的结点mask
+    # Return the deleted node mask
     return mask
     
 def segment_graph(edges, nodes, nodes_mask, max_segment, max_attempts=100):
@@ -178,42 +173,42 @@ def segment_graph(edges, nodes, nodes_mask, max_segment, max_attempts=100):
     while num_attempts < max_attempts:
         success = True
         random.shuffle(valid_nodes)
-        # 随机生成各组的大小，确保总和等于列表长度
+        # Randomly generate the sizes of each group to ensure that the total sum is equal to the length of the list
         group_sizes = []
         remaining_elements = len(valid_nodes)
         
         for i in range(n_groups - 1):
-            size = random.randint(1, remaining_elements - (n_groups - i - 1))  # 确保剩余组有元素
+            size = random.randint(1, remaining_elements - (n_groups - i - 1))  # Make sure the remaining groups have elements
             group_sizes.append(size)
             remaining_elements -= size
         
-        # 最后一组包含剩余的所有元素
+        # The last group contains all the remaining elements
         group_sizes.append(remaining_elements)
         
-        # 分配元素到各组
+        # Assign elements to each group
         partitions = []
         start = 0
         for size in group_sizes:
             partitions.append(valid_nodes[start:start + size])
             start += size
     
-        # 创建一个新的图，只有保留的边
+        # Create a new graph with only the retained edges
         new_graph = graph.copy()
         
-        # 遍历所有边，删除跨子图的边
+        # Traverse all edges and delete the edges across subgraphs
         edges_to_remove = []
         for u, v in graph.edges:
-            # 判断边(u, v)是否连接两个不同的子集
+            # Determine whether the edge (u, v) connects two different subsets
             u_partition = find_partition(u, partitions)
             v_partition = find_partition(v, partitions)
             
             if u_partition != v_partition:
-                edges_to_remove.append((u, v))  # 跨子图的边标记为删除
+                edges_to_remove.append((u, v))  # Edges across subgraphs are marked as deleted
         
-        # 删除边
+        # Delete the edges
         new_graph.remove_edges_from(edges_to_remove)
         
-        # 确保每个子图是联通的
+        # Make sure that each subgraph is connected
         for i in range(n_groups):
             subgraph_nodes = partitions[i]
             subgraph = new_graph.subgraph(subgraph_nodes).copy()
@@ -226,12 +221,12 @@ def segment_graph(edges, nodes, nodes_mask, max_segment, max_attempts=100):
     return None
 
 
-# 找到节点所属的分区
+# Find the partition to which the node belongs
 def find_partition(node, partitions):
     for i, partition in enumerate(partitions):
         if node in partition:
             return i
-    return -1  # 默认返回-1，应该不会到这里
+    return -1  # The default return is -1. It shouldn't be here
 
 
 def find_junction_points(points_list, edges, nodes_mask, groups):
@@ -382,21 +377,19 @@ def visualize_furniture_structure(points_list, edges, nodes_mask, visualize=Fals
 
     fig2 = visualize_graph(points_list, edges, nodes_mask, groups)
     fig1 = visualize_pts(points_list, edges, nodes_mask, junction_mask, groups)
-    # 使用make_subplots来创建一个具有两列的子图
+    # Use make_subplots to create a subplot with two columns
     fig = make_subplots(
         rows=1, cols=2,  # 1行2列的布局
-        specs=[[{'type': 'scatter3d'}, {'type': 'xy'}]],  # 第一列为3D子图，第二列为XY子图
-        subplot_titles=('3D Scatter', '2D graph')  # 子图标题
+        specs=[[{'type': 'scatter3d'}, {'type': 'xy'}]],  # The first column is a 3D subgraph, and the second column is an XY subgraph
+        subplot_titles=('3D Scatter', '2D graph')  # Subgraph title
     )
-    # 将第一个图添加到子图中
+
     for trace in fig1.data:
         fig.add_trace(trace, row=1, col=1)
 
-    # 将第二个图添加到子图中
     for trace in fig2.data:
         fig.add_trace(trace, row=1, col=2)
 
-    # 更新布局（可选）
     fig.update_layout(
         title_text="visualization of furniture structure",
         showlegend=True
@@ -423,18 +416,16 @@ def main(args):
     while num_generated_parts_selection < args.num_parts_selection and current_attempt < max_attempts:
         current_attempt += 1
         num_deleted_nodes = random.randint(0, len(nodes) - 2)
-        # print(f"删除 {num_deleted_nodes} 个结点")
-        # 随机删除一些结点
+        # Delete some nodes randomly
         nodes_mask = remove_nodes(edges, nodes, num_deleted_nodes)
         # print(f"nodes mask: {nodes_mask}")
         valid_file_list = [file_list[i] for i in range(len(file_list)) if nodes_mask[i] == 1]
         # print(f"valid parts: {valid_file_list}")
-        # 取出nodes mask中为1的索引，将其转换为字符串
+        # Take out the index of 1 in the nodes mask and convert it to a string
         nodes_mask_str = ''.join([str(i) for i in range(len(nodes_mask)) if nodes_mask[i] == 1])
-        # 将整个图分割成多个联通子图
+        # Divide the entire graph into multiple connected subgraphs
         groups = segment_graph(edges, nodes, nodes_mask, max_segment)
         if groups is None:
-            # print("分割图失败")
             continue
         # sort the groups
         for i in range(len(groups)):
@@ -444,7 +435,7 @@ def main(args):
         for i in range(len(groups)):
             groups_str += ''.join([str(j) for j in groups[i]]) + '_'
         groups_str = groups_str[:-1]
-        # 计算valid point cloud中junction的点
+        # Calculate the points of junction in the valid point cloud
         junction_mask = find_junction_points(points_list, edges, nodes_mask, groups)
 
         fig = visualize_furniture_structure(points_list, edges, nodes_mask, args.visualize, junction_mask, groups)
@@ -461,7 +452,6 @@ def main(args):
         os.makedirs(save_path, exist_ok=True)
         fig.write_html(save_path + 'furniture_structure.html')
         if os.path.exists(os.path.join(save_path, 'part_selection.json')):
-            # print(f"文件 {save_path} 已经存在")
             continue
         for i in range(len(valid_file_list)):
             os.system(f"cp {valid_file_list[i]} {save_path}")
@@ -487,7 +477,6 @@ def main(args):
 
         with open(os.path.join(save_path, 'part_selection.json'), "w") as f:
             json.dump(data, f, indent=4)
-        # print(f"已保存到 {save_path}")
         saved_data_path.append(save_path)
         num_generated_parts_selection += 1
     # print(f"generated {num_generated_parts_selection} valid parts selection")
