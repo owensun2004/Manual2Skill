@@ -57,12 +57,12 @@ if __name__ == "__main__":
     # partnet/partnet_dataset/stats/new_raw_data/ is the original dataset directory
     input_dir = '/data2/lyw/rss_data/partnet/partnet_dataset/stats/new_raw_data/' 
 
-    # /data2/lyw/partnet_mono is the target saved directory 
-    dataset_dir = os.path.abspath('/data2/lyw/partnet_mono')
+    # /data2/lyw/partnet_chair_mono is the target saved directory 
+    dataset_dir = os.path.abspath('/data2/lyw/partnet_chair_mono')
     os.makedirs(dataset_dir, exist_ok=True)
 
     # Target classes and their quantities
-    target_classes = {"Chair": 100, "Lamp": 100, "Table": 100}
+    target_classes = {"Chair": 100, "Lamp": 0, "Table": 0} # their numbers control the category of furniture
     selected_folders = {key: [] for key in target_classes}  # Store the selected folders
 
     # Traverse the directories
