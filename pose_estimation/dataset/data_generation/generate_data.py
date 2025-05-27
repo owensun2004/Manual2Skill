@@ -57,8 +57,8 @@ if __name__ == "__main__":
     # partnet/partnet_dataset/stats/new_raw_data/ is the original dataset directory
     input_dir = '/data2/lyw/rss_data/partnet/partnet_dataset/stats/new_raw_data/' 
 
-    # ../../../../partnet_mono/ is the target saved directory 
-    dataset_dir = os.path.abspath('../../../../partnet_mono/')
+    # /data2/lyw/partnet_mono is the target saved directory 
+    dataset_dir = os.path.abspath('/data2/lyw/partnet_mono')
     os.makedirs(dataset_dir, exist_ok=True)
 
     # Target classes and their quantities
