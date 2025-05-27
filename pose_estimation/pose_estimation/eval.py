@@ -105,9 +105,9 @@ if __name__ == '__main__':
     cfg.dist.local_rank = 'cuda:0'
     cfg.train.batch_size = 16
     cfg.PA_threshold = 0.01
-    cfg.data.dir = '/data2/lyw/IKEA_data3'
+    cfg.data.dir = '../../partnet_chair_mono'
     cfg.data.is_partnet = True
-    cfg.train.pretrained_weights = '/data2/lyw/Furniture-Assembly/pose_estimation/logs/GNNNetwork_IKEA_data3_04-19-21-08-36/best.ckpt'
+    cfg.train.pretrained_weights = './logs/GNNNetwork_partnet_chair_mono_04-19-21-08-36/best.ckpt'
     cfg.train.log_dir = f'./logs/eval_{cfg.network_name}_{cfg.data.dir.rstrip("/").split("/")[-1]}_{log_dir_suffix}/'
     os.makedirs(cfg.train.log_dir, exist_ok=True)
     logger = setup_logging(os.path.join(cfg.train.log_dir, 'eval.log'))
