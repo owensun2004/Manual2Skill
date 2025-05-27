@@ -1,29 +1,3 @@
-# import debugpy
-# import sys
-# import time
-
-# print(f"Python Interpreter: {sys.executable}")
-# print("Starting debugpy...")
-
-# # 监听端口
-# debugpy.listen(("0.0.0.0", 5678))  
-# print("Waiting for debugger attach...")
-
-# # 强制刷新 `print()` 输出
-# sys.stdout.flush()
-
-# # 等待 VSCode 连接
-# debugpy.wait_for_client()
-# debugpy.breakpoint()  
-
-# print("Debugger attached, continuing execution...")
-# sys.stdout.flush()
-
-import debugpy
-debugpy.listen(5678)
-debugpy.wait_for_client()
-
-
 import bpy
 import os
 import random
@@ -43,12 +17,11 @@ colors_hex = [
     ]
 
 
-# 找到节点所属的分区
 def find_partition(node, partitions):
     for i, partition in enumerate(partitions):
         if node in partition:
             return i
-    return -1  # 默认返回-1，应该不会到这里
+    return -1 
 
 
 def hex_to_rgb(hex_color):
@@ -149,11 +122,10 @@ for data_dir in input_data_dir_list:
     ## List all .obj files in the folder
     #obj_files = [os.path.abspath(os.path.join(folder_path, f)) for f in os.listdir(folder_path) if f.endswith(".obj")]
 
-    # 读取 JSON 文件中的数据
     with open(data_dir+'/part_selection.json', "r") as f:
         loaded_data = json.load(f)
 
-    # 获取 "used meshes" 列表
+    # Obtain the list of "used meshes"
     obj_files = loaded_data["used meshes"]
     groups = loaded_data["groups"]
     # print(obj_files, groups)
