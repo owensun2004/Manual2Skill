@@ -14,7 +14,7 @@
 [Ruihai Wu](https://warshallrho.github.io/),
 [Lin Shao](https://linsats.github.io/)
 
-`<font color="black"><strong>`RSS 2025`</strong></font>`
+<font color="black"><strong>RSS 2025</strong></font>
 
 [![arXiv](https://img.shields.io/badge/Paper-arXiv-red)](https://arxiv.org/abs/2502.10090)
 [![Home Page](https://img.shields.io/badge/Project-Website-green.svg)](https://owensun2004.github.io/Furniture-Assembly-Web)
