@@ -14,10 +14,10 @@
 [Ruihai Wu](https://warshallrho.github.io/),
 [Lin Shao](https://linsats.github.io/)
 
-<font color="black"><strong>RSS 2025</strong></font> 
+`<font color="black"><strong>`RSS 2025`</strong></font>`
 
-[![arXiv](https://img.shields.io/badge/Paper-arXiv-red)](https://arxiv.org/abs/2502.10090) 
-[![Home Page](https://img.shields.io/badge/Project-Website-green.svg)](https://owensun2004.github.io/Furniture-Assembly-Web) 
+[![arXiv](https://img.shields.io/badge/Paper-arXiv-red)](https://arxiv.org/abs/2502.10090)
+[![Home Page](https://img.shields.io/badge/Project-Website-green.svg)](https://owensun2004.github.io/Furniture-Assembly-Web)
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/15XH8jhqodE4-GuiIe_IRrwjaeZt6uiQj?usp=sharing)
 
 This is the official implementation of **[Manual2Skill](https://owensun2004.github.io/Furniture-Assembly-Web)**, a novel framework that enables robots to perform complex assembly tasks guided by high-level manual instructions.
@@ -28,20 +28,22 @@ This is the official implementation of **[Manual2Skill](https://owensun2004.gith
 
 ## Getting Started
 
-This repository contains code for the 2 critical sections of Manual2Skill: 
+This repository contains code for the 2 critical sections of Manual2Skill:
 
 1. **Hierachical Assembly Graph Generation**
 2. **Per-step Assembly Pose Estimation**
 
-
 ### Installation
+
 1. Clone repository:
-  ```bash
+
+```bash
   git clone https://github.com/owensun2004/Manual2Skill.git
   cd Manual2Skill
-  ```
+```
 
 2. Install dependencies:
+
 ```bash
 conda create -n manual python=3.11
 conda activate manual
@@ -57,11 +59,13 @@ rm blender-3.6.19-linux-x64.tar.xz
 ```
 
 3. OpenAI API Key
+
 ```bash
 export OPENAIKEY="your-api-key"
 ```
 
 ## Hierachical Assembly Graph Generation
+
 This section includes scripts for generating variations in pre-assembly scene, running VLM inference on the 102 furniture to generate hierachical assembly graphs, and performing evaluation for VLM generated results.
 
 ```bash
@@ -69,7 +73,9 @@ cd VLM_assembly_graph_gen
 ```
 
 ### Data Preparation
+
 Download and extract data for 102 furniture manuals and pre-assembly scenes:
+
 ```bash
 mkdir data
 gdown https://drive.google.com/uc?id=1hPesH_zd_NMd842JGaXaUxkviLU2Th4L
@@ -77,10 +83,13 @@ unzip data.zip -d ./data
 ```
 
 ### Pre-assembly scene generations
+
 This section explains how to use Blender to generate variations pre-assembly scenes:
+
 ```bash
 python scene_gen/generator.py --rand_translate true --rand_rotate true
 ```
+
 - `--rand_translate true` randomly shuffles furniture parts
 - `--rand_rotate true` randomly rotates furniture parts in place
 - If neither argument is specified, original pre-assembly scenes from `data/preassembly_scenes` will be generated again
@@ -88,15 +97,19 @@ python scene_gen/generator.py --rand_translate true --rand_rotate true
 Generated scenes are saved as `scene_rot.png` and `scene_rot_annotated.png` under `data/preassembly_scenes` for each furniture item. Each run produces unique scenes due to randomness.
 
 ### VLM inference
-This section explains how to generate assembly graphs for each furniture.  Each furniture item uses approximately 15 images and 1700 words, taking around 1-2 minutes per item. 
+
+This section explains how to generate assembly graphs for each furniture.  Each furniture item uses approximately 15 images and 1700 words, taking around 1-2 minutes per item.
 
 **Example (default parameters with original pre-assembly scene for all furniture):**
+
 ```bash
 python inference/run.py 
 ```
+
 Outputs will be stored in `outputs/[timestamp]/` with each furniture item containing a `tree.json`, which stores the predicted assembly graph in a nested array.
 
 **Custom Parameters Example**
+
 ```bash
 python inference/run.py \
 --start 0 \
@@ -107,7 +120,9 @@ python inference/run.py \
 --scene_type varied \
 --debug
 ```
+
 Parameters
+
 - `--start` and `--end`: Furniture item index (0-101) if you want to inference on a specific subset of furniture
 - `--temperature`: Controls generation randomness (0-1)
 - `--model`: Selects from `gpt-4o`, `gpt-4.5`, `o1`, or `o3`
@@ -118,12 +133,15 @@ Parameters
 Overall, gpt-4o with a temperature of 0 achieves great performance. The prompt_type and scene_type do not affect the performance too much.
 
 ### Evaluation
+
 Navigate to evaluation scripts (assuming you are currently under `VLM_assembly_graph_gen`):
+
 ```bash
 cd eval
 ```
 
 To test the success rates of your generated assembly graphs, copy the name of your inference output folder to `--tree_dir`. For example, suppose your most recent inference output folder is named `2025_05_01_193302`, then you can type this command:
+
 ```bash
 export PYTHONPATH=$PYTHONPATH:$(pwd)
 python manual_generation/test_accuracy.py \
@@ -132,7 +150,9 @@ python manual_generation/test_accuracy.py \
   --part_features_pkl resources/features_dgcnn_1024_102.pkl \
   --tree_dir 2025_05_01_193302
 ```
+
 Parameters
+
 - `--data_json`, `--parts_dir`, `--part_features_pkl`: Mandatory arguments
 - `--tree_dir`: Specify output directory name containing the generated assembly graphs for evaluation
   - Examples: Your own inference folder mentioned above, `ours` (paper results), `singlestep` or `geocluster` (baselines)
@@ -149,10 +169,10 @@ Disclaimer: Because of the complexity of the prompts and the multi-stage VLM que
 
 1.Data Preparation
 
-Download [**Blender**](https://download.blender.org/release/Blender4.3/) of Linux version, and unzip it making it align with this project. Download **[PartNet](https://github.com/daerduoCarey/partnet_dataset)** dataset, and unzip it under the directory `pose_estimation/dataset/raw_data`, when it's done, it should be like as follow directory structure:
+Download **[PartNet](https://github.com/daerduoCarey/partnet_dataset)** dataset, and unzip it under the directory `pose_estimation/dataset/raw_data`, when it's done, it should be like as follow directory structure:
 
 ```
-blender-4.3.2-linux-x64
+blender-3.6.19-linux-x64
 ├── blender
 └── *
 Manual2Skill
@@ -198,9 +218,11 @@ The model weights are saved in `pose_estimation/logs`.
 In `pose_estimation/eval.py`, modify `cfg.train.pretrained_weights` into the path of the model weights to evaluate such as `./logs/GNNNetwork_partnet_chair_mono_04-19-21-08-36/best.ckpt`. Then run `python eval.py` to evaluate, the results are in saved in `pose_estimation/logs`.
 
 ## Acknowledgements
+
 Part of the code are adapted from [IKEA-Manual](https://cs.stanford.edu/~rcwang/projects/ikea_manual/). We thank the authors for their excellent work!
 
 ## Citation
+
 If you find our work useful, please cite:
 
 ```bibtex
