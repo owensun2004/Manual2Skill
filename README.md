@@ -169,7 +169,7 @@ Disclaimer: Because of the complexity of the prompts and the multi-stage VLM que
 
 1.Data Preparation
 
-Download **[PartNet](https://github.com/daerduoCarey/partnet_dataset)** dataset, and unzip it under the directory `pose_estimation/dataset/raw_data`, when it's done, it should be like as follow directory structure:
+Download the official **[PartNet](https://github.com/daerduoCarey/partnet_dataset)** dataset or our **[processed dataset](https://huggingface.co/duzhuohanyue/Manual2Skill_split/tree/main)** (recommended), and unzip it under the directory `pose_estimation/dataset/raw_data`, when it's done, it should be like as follow directory structure:
 
 ```
 blender-3.6.19-linux-x64
