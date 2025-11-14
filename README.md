@@ -45,9 +45,7 @@ This repository contains code for the 2 critical sections of Manual2Skill:
 2. Install dependencies:
 
 ```bash
-conda create -n manual python=3.10
-conda activate manual
-conda install --yes --file requirements.txt
+conda env create -f environment.yml
 
 # for blender rendering of variations in pre-assembly scene
 wget https://download.blender.org/release/Blender3.6/blender-3.6.19-linux-x64.tar.xz
