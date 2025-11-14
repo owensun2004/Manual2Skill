@@ -65,7 +65,7 @@ pip install --no-index --no-cache-dir pytorch3d -f https://dl.fbaipublicfiles.co
 ```
 more detailed installation guidance about pytorch3d can be found at https://github.com/facebookresearch/pytorch3d/blob/main/INSTALL.md
 
-1. OpenAI API Key
+3. OpenAI API Key
 
 ```bash
 export OPENAI_API_KEY="your-api-key"
