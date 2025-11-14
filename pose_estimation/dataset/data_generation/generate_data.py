@@ -1,5 +1,6 @@
 import subprocess
 import os
+import glob
 os.chdir(os.path.dirname(os.path.abspath(__file__)))
 from pathlib import Path
 from tqdm import tqdm
@@ -25,14 +26,22 @@ def call_python_script(script_path, **kwargs):
 
 
 def call_blender_script(script_path, **kwargs):
-    # Create the command line string
-    blender_path = os.path.abspath('../../../../blender-4.3.2-linux-x64/blender')
+    # 使用 glob 匹配所有版本的 blender
+    blender_pattern = os.path.abspath('../../../../blender-*/blender')
+    blender_matches = glob.glob(blender_pattern)
+    
+    if not blender_matches:
+        raise FileNotFoundError("未找到 blender 可执行文件")
+    
+    blender_path = blender_matches[0]
+    
     command = [blender_path, '-b', '-P', script_path]
     
     # Add --param_name argument for each named parameter
     for key, value in kwargs.items():
         command.append(str(value))
 
+    # print(command)
     # Call the command
     result = subprocess.run(command, capture_output=True, text=True)
     

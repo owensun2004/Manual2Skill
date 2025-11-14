@@ -57,7 +57,7 @@ def main():
             "--no_3d_keypoints",
         ], check=True, env=env)
         subprocess.run([
-            "conda", "run", "-n", "manual", "python",
+            "python",
             script_annotate,
             "--input_data_dir", os.path.join(os.path.dirname(__file__), "../data/preassembly_scenes", furniture_cat, furniture_name),
             "--output_file_name", output_file,

@@ -34,7 +34,7 @@ def read_point_clouds(pts_files, mask_files):
     assert len(pts_files) == len(mask_files)
     for i in range(len(pts_files)):
         pts = torch.tensor(np.loadtxt(pts_files[i]))
-        msk = np.loadtxt(mask_files[i])
+        msk = np.loadtxt(mask_files[i]) 
         pts_fps, indice = farthest_point_sampling(pts, 1000)
         pts_fps = np.array(pts_fps)
         msk = msk[indice]
@@ -236,11 +236,3 @@ def main(args):
             scene.add_geometry(z_axis)
 
             scene.show()
-
-if __name__ == "__main__":
-    # Parse the arguments
-    parser = argparse.ArgumentParser()
-    parser.add_argument('--data_dir', type=str, default='/data2/lyw/rss_data/IKEA-Manuals-at-Work/data/parts/Chair/applaro_2', help='Path to the data dir')
-    parser.add_argument('--visualize',type=bool, default=False , help='Visualize the generated data by trimesh')
-    args = parser.parse_args()
-    main(args)

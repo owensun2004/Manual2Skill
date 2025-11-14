@@ -23,10 +23,10 @@ def main(cfg):
     if torch.cuda.is_available() is False:
         raise ValueError('CUDA is not available. Please check your environment setting.')
 
-    flie_path = cfg.data.dir
-    flie_name = os.path.basename(flie_path)
-    train_pinkle_path = f"train_set_{flie_name}.pkl"
-    eval_pinkle_path = f"eval_set_{flie_name}.pkl"
+    file_path = cfg.data.dir
+    file_name = os.path.basename(file_path)
+    train_pinkle_path = f"train_set_{file_name}.pkl"
+    eval_pinkle_path = f"eval_set_{file_name}.pkl"
     if os.path.exists(train_pinkle_path) and os.path.exists(eval_pinkle_path):
         if not cfg.dist.distributed or is_main_process():
             logger.info("Loading train_set and eval_set from pickle files...")
@@ -82,8 +82,8 @@ def main(cfg):
     #     min_num_part=cfg.data.min_num_part, 
     #     max_num_part=cfg.data.max_num_part
     # )
-    train_loader = DataLoader(train_set, batch_size=cfg.train.batch_size, shuffle=True, num_workers=4, pin_memory=True)
-    eval_loader = DataLoader(eval_set, batch_size=cfg.train.batch_size, shuffle=False, num_workers=4, pin_memory=True)
+    train_loader = DataLoader(train_set, batch_size=cfg.train.batch_size, shuffle=True, num_workers=2, pin_memory=True)
+    eval_loader = DataLoader(eval_set, batch_size=cfg.train.batch_size, shuffle=False, num_workers=2, pin_memory=True)
 
     if not cfg.dist.distributed or is_main_process():
         wandb.init(project='furniture_assembly', config=cfg)

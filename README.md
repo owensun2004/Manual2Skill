@@ -45,9 +45,9 @@ This repository contains code for the 2 critical sections of Manual2Skill:
 2. Install dependencies:
 
 ```bash
-conda create -n manual python=3.11
+conda create -n manual python=3.10
 conda activate manual
-pip install -r requirements.txt
+conda install --yes --file requirements.txt
 
 # for blender rendering of variations in pre-assembly scene
 wget https://download.blender.org/release/Blender3.6/blender-3.6.19-linux-x64.tar.xz
@@ -58,10 +58,17 @@ cd ..
 rm blender-3.6.19-linux-x64.tar.xz
 ```
 
-3. OpenAI API Key
+**Note:** If you meet trouble when installing pytorch3d, we recommand install the prebuilt wheel like:
 
 ```bash
-export OPENAIKEY="your-api-key"
+pip install --no-index --no-cache-dir pytorch3d -f https://dl.fbaipublicfiles.com/pytorch3d/packaging/wheels/py310_cu117_pyt201/download.html
+```
+more detailed installation guidance about pytorch3d can be found at https://github.com/facebookresearch/pytorch3d/blob/main/INSTALL.md
+
+1. OpenAI API Key
+
+```bash
+export OPENAI_API_KEY="your-api-key"
 ```
 
 ## Hierachical Assembly Graph Generation
@@ -69,7 +76,7 @@ export OPENAIKEY="your-api-key"
 This section includes scripts for generating variations in pre-assembly scene, running VLM inference on the 102 furniture to generate hierachical assembly graphs, and performing evaluation for VLM generated results.
 
 ```bash
-cd VLM_assembly_graph_gen
+cd VLM_assembly_plan_gen
 ```
 
 ### Data Preparation

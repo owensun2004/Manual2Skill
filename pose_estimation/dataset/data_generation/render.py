@@ -179,8 +179,10 @@ for data_dir in input_data_dir_list:
         # Increase the strength to ensure uniform lighting
         background_node.inputs["Strength"].default_value = 1  # Increase the strength for more brightness
 
-    # Set the render engine to Eevee or Cycles
-    bpy.context.scene.render.engine = 'BLENDER_EEVEE_NEXT'  # Or 'CYCLES'
+    # Set the render engine to Eevee 
+    bpy.context.scene.render.engine = 'BLENDER_EEVEE' 
+    #！ if you use blender4.x, use 'BLENDER_EEVEE_NEXT'
+
     # Enable Freestyle rendering
     scene = bpy.context.scene
     scene.render.use_freestyle = True  # Enable freestyle

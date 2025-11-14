@@ -15,10 +15,11 @@ from torch.utils.data import DataLoader, DistributedSampler, SequentialSampler
 from pathlib import Path
 from pose_estimation.utils.utils import *
 import time
-from concurrent.futures import ThreadPoolExecutor
+from concurrent.futures import ThreadPoolExecutor, ProcessPoolExecutor
+from functools import partial
 
 class FurnitureAssemblyDataset(Dataset):
-    def __init__(self, data_dir, vis=False, partnet=True, split='train', train_ratio=0.7, seed=42, min_num_part=2, max_num_part=4):
+    def __init__(self, data_dir, vis=False, partnet=True, split='train', train_ratio=0.7, seed=42, min_num_part=2, max_num_part=4, num_workers=4):
         self.data_dir = data_dir
         self.vis = vis
         self.partnet = partnet
@@ -27,128 +28,139 @@ class FurnitureAssemblyDataset(Dataset):
         self.seed = seed
         self.min_num_part = min_num_part
         self.max_num_part = max_num_part
+        self.num_workers = num_workers
 
-        # Build the full dataset
-        self.data = self.build_dataset()
+        # 只收集文件路径,不加载数据
+        self.data_paths = self.build_dataset_paths()
 
         # Split indices using sklearn
         train_indices, val_indices = train_test_split(
-            range(len(self.data)), 
+            range(len(self.data_paths)), 
             train_size=train_ratio, 
             random_state=seed
         )
 
         if split == 'train':
-            self.data = [self.data[i] for i in train_indices]
+            self.data_paths = [self.data_paths[i] for i in train_indices]
         elif split == 'val':
-            self.data = [self.data[i] for i in val_indices]
+            self.data_paths = [self.data_paths[i] for i in val_indices]
         else:
             raise ValueError("Split must be 'train' or 'val'.")
         
-    def process_part_selection(self, part_selection_dir):
-        data = []
-        num_image = 0
-        num_total_data = 0
-        for image_dir in tqdm(os.listdir(part_selection_dir), desc="Processing images", leave=False):
-            if not os.path.isdir(os.path.join(part_selection_dir, image_dir)):
-                continue
-            image_path = os.path.join(part_selection_dir, image_dir)
-            image = np.array((cv2.imread(os.path.join(image_path, 'image.png'))), dtype=np.uint8)
-
-            if not self.vis:
-                # Normalize
-                image = image / 255.0
-            image = image.transpose(2, 0, 1)
-            num_image = num_image + 1
-            zip_data = np.load(os.path.join(image_path, 'data.npz'))
-
-            point_cloud = zip_data['point_cloud']
-            mask = zip_data['mask']
-            rotation_matrix = zip_data['rotation_matrix']
-            center = zip_data['center']
-
-            part_ids = assign_part_ids(point_cloud, center_threshold=0.05, size_threshold=0.05)
-
-            num_parts = point_cloud.shape[1]
-            if num_parts < self.min_num_part or num_parts > self.max_num_part:
-                continue
-            num_data_pieces = point_cloud.shape[0]
-            num_total_data = num_total_data + num_data_pieces
-            
-            # valids = torch.zeros(self.max_num_part, dtype=torch.float32)
-            valids = np.zeros(self.max_num_part, dtype=np.float32)
-            valids[:num_parts] = 1
-            
-            for i in range(num_data_pieces):
-                data.append({
-                    'image': image,
-                    'mask': self._pad_data(mask[i]),
-                    'point_cloud': self._pad_data(point_cloud[i]),
-                    'rotation_matrix': self._pad_data(rotation_matrix[i]),
-                    'center': self._pad_data(center[i]),
-                    'part_valids': valids,
-                    'part_ids': self._pad_data(part_ids[i])
-                })
-        
-        return data
-        
-    def build_dataset(self):
+    def build_dataset_paths(self):
         """
-        Load the dataset from the data directory with a progress bar.
+        只收集数据文件路径,不加载实际数据
         """
-        data = []
-
-        # Outer loop with tqdm for part selection
+        data_paths = []
+        print(f"Building dataset paths from {self.data_dir}")
+        
+        # Collect all part selection directories
+        part_selection_dirs = []
         if self.partnet:
-            for shape_dir in tqdm(os.listdir(self.data_dir), desc="Processing shape directories"):
-                shape_dir = os.path.join(self.data_dir, shape_dir)
-                for part_selection in os.listdir(shape_dir):
-                    data.extend(self.process_part_selection(os.path.join(self.data_dir, shape_dir, part_selection)))
-
+            for shape_dir in os.listdir(self.data_dir):
+                shape_path = os.path.join(self.data_dir, shape_dir)
+                if os.path.isdir(shape_path):
+                    for part_selection in os.listdir(shape_path):
+                        part_selection_path = os.path.join(shape_path, part_selection)
+                        if os.path.isdir(part_selection_path):
+                            part_selection_dirs.append(part_selection_path)
         else:
-            for part_selection in tqdm(os.listdir(self.data_dir), desc="Processing part selections"):
-                data.extend(self.process_part_selection(os.path.join(self.data_dir, part_selection)))
-
-        return data
+            part_selection_dirs = [
+                os.path.join(self.data_dir, d) 
+                for d in os.listdir(self.data_dir) 
+                if os.path.isdir(os.path.join(self.data_dir, d))
+            ]
+        
+        # 收集所有图像目录路径
+        for part_dir in tqdm(part_selection_dirs, desc="Collecting data paths"):
+            image_dirs = [
+                os.path.join(part_dir, d) 
+                for d in os.listdir(part_dir) 
+                if os.path.isdir(os.path.join(part_dir, d))
+            ]
+            
+            for image_dir in image_dirs:
+                # 快速检查是否有必需的文件
+                npz_file = os.path.join(image_dir, 'data.npz')
+                image_file = os.path.join(image_dir, 'image.png')
+                
+                if os.path.exists(npz_file) and os.path.exists(image_file):
+                    # 快速检查part数量
+                    try:
+                        with np.load(npz_file, mmap_mode='r') as data:
+                            num_parts = data['point_cloud'].shape[1]
+                            num_data_pieces = data['point_cloud'].shape[0]
+                            
+                            if self.min_num_part <= num_parts <= self.max_num_part:
+                                # 为每个data piece添加一个路径条目
+                                for i in range(num_data_pieces):
+                                    data_paths.append({
+                                        'image_dir': image_dir,
+                                        'data_piece_idx': i
+                                    })
+                    except Exception as e:
+                        print(f"Error reading {npz_file}: {e}")
+                        continue
+        
+        print(f"Total samples: {len(data_paths)}")
+        return data_paths
 
     def _pad_data(self, data):
         """Pad data to shape [`self.max_num_part`, data.shape[1], ...] using zeros."""
-        data = np.array(data)
-        # data = data.clone()
+        data = np.array(data, dtype=np.float32)
         pad_shape = (self.max_num_part, ) + tuple(data.shape[1:])
         pad_data = np.zeros(pad_shape, dtype=np.float32)
-        # pad_data = torch.zeros(pad_shape, dtype=torch.float32)
         pad_data[:data.shape[0]] = data
         return pad_data
     
-
     def __len__(self):
-        return len(self.data)
+        return len(self.data_paths)
     
     def __getitem__(self, idx):
         """
-        data_dict = {
-            'image': 3 x H x W
-                The rendered image.
-
-            'mask': MAX_NUM x N
-                The mask for each part, denoting the junctions.
-
-            'point_cloud': MAX_NUM x N x 3
-                The points sampled from each part.
-
-            'center': MAX_NUM x 3
-                Translation vector
-
-            'rotation_matrix': MAX_NUM x 4
-                Rotation as rotation matrix.
-
-            'part_valids': MAX_NUM
-                1 for shape parts, 0 for padded zeros.
-
-        }
+        在这里才加载数据 - 这是标准做法!
         """
-        return self.data[idx]
+        path_info = self.data_paths[idx]
+        image_dir = path_info['image_dir']
+        data_piece_idx = path_info['data_piece_idx']
+        
+        # 加载图像
+        image_file = os.path.join(image_dir, 'image.png')
+        pil_image = Image.open(image_file).convert('RGB')  # 确保是RGB格式
+        image = np.array(pil_image)
+        if not self.vis:
+            image = (image / 255.0).astype(np.float32)
+        else:
+            image = image.astype(np.uint8)
+        image = image.transpose(2, 0, 1)
+        
+        # 加载npz数据
+        npz_file = os.path.join(image_dir, 'data.npz')
+        zip_data = np.load(npz_file)
+        point_cloud = zip_data['point_cloud']
+        mask = zip_data['mask']
+        rotation_matrix = zip_data['rotation_matrix']
+        center = zip_data['center']
+        
+        num_parts = point_cloud.shape[1]
+        
+        # 计算part_ids
+        part_ids = assign_part_ids(point_cloud, center_threshold=0.05, size_threshold=0.05)
+        
+        # 构建valids
+        valids = np.zeros(self.max_num_part, dtype=np.float32)
+        valids[:num_parts] = 1
+        
+        # 返回单个数据样本
+        return {
+            'image': image,
+            'mask': self._pad_data(mask[data_piece_idx]),
+            'point_cloud': self._pad_data(point_cloud[data_piece_idx]),
+            'rotation_matrix': self._pad_data(rotation_matrix[data_piece_idx]),
+            'center': self._pad_data(center[data_piece_idx]),
+            'part_valids': valids,
+            'part_ids': self._pad_data(part_ids[data_piece_idx])
+        }
 
 
 def add_positional_embedding_to_mask(mask_batch, num_embedding_points=24):

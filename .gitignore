@@ -2,3 +2,10 @@ __pycache__/
 *.pyc
 VLM_assembly_plan_gen/data/
 VLM_assembly_plan_gen/outputs/
+dataset/
+pose_estimation/dataset/raw_data/
+pose_estimation/pose_estimation/logs/
+pose_estimation/pose_estimation/wandb/
+*.pkl
+*.zip
+*/__pycache__/

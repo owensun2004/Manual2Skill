@@ -23,7 +23,7 @@ _C.data = CN()
 _C.data.train_ratio = 0.7
 _C.data.seed = 42
 
-_C.data.dir = '../../partnet_chair_mono'
+_C.data.dir = '../../../partnet_chair_mono'
 _C.data.min_num_part = 2
 _C.data.max_num_part = 6
 _C.data.is_partnet = True
@@ -35,7 +35,7 @@ _C.dist.dist_on_itp = False
 _C.dist.dist_url = 'env://'
 
 _C.train = CN()
-_C.train.batch_size = 22
+_C.train.batch_size = 16
 _C.train.warmup_epochs = 10
 _C.train.num_epochs = 500
 _C.train.eval_every = 50
@@ -44,10 +44,10 @@ _C.train.viz_every = 50
 _C.train.num_viz = 50
 _C.train.lr = 1e-5
 _C.train.l2_norm = 1e-7
-_C.train.pretrained = True
+_C.train.pretrained = False
 _C.train.pretrained_weights = ''
 _C.train.patience = 15
-_C.train.device = 'cuda:1' if not _C.dist.distributed else 'cuda:0'
+_C.train.device = 'cuda:0' if not _C.dist.distributed else 'cuda:0'
 _C.train.log_interval = 10
 
 def get_cfg_defaults():
